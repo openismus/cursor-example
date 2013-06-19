@@ -1,0 +1,67 @@
+What is the Cursor example program
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This is an example user interface using the EBookBackendSqliteDB
+cursor API.
+
+The code in src/cursor-example.c displays a user interface object which
+uses most of the existing cursor features (if not all of them).
+
+
+Build Requirements
+~~~~~~~~~~~~~~~~~~
+To build the cursor example you need:
+  o GTK+ 3.4 or later
+  o GIO (and glib/gobject) 2.32 or later
+  o EDS 3.9.90 (the latest code drop including cursor APIs)
+
+As a reminder, the EDS tarbal can be downloaded here:
+    http://people.gnome.org/~tvb/evolution-data-server-3.9.90-openismus-18-06-2013.tar.xz
+
+
+Building the Example
+~~~~~~~~~~~~~~~~~~~~
+To build, follow these easy steps:
+
+  tar -jxf cursor-0.1.0.tar.bz2
+  cd cursor-0.1.0/
+  ./configure
+  make
+
+There is no need to install the cursor example program.
+
+
+Running the Example
+~~~~~~~~~~~~~~~~~~~
+The example requires that EDS services be running, and
+that the XDG environment variables be the same for the
+server processes as they are for the example program.
+
+So, let's take the example that you installed EDS in
+the default system prefix '/usr/local', and let's run
+EDS in such a way that it will create data in a temporary
+directory that we can remove later on.
+
+First, setup the relevant environment variables:
+
+  export XDG_DATA_HOME=/home/username/tmp_evo
+  export XDG_CONFIG_HOME=/home/username/tmp_evo
+  export XDG_CACHE_HOME=/home/username/tmp_evo
+
+Now start the EDS services and run them in the background:
+
+  /usr/local/libexec/evolution-source-registry &
+  /usr/local/libexec/evolution-addressbook-factory -r &
+
+Now you can run the cursor example in the same environment:
+
+  cd cursor-0.1.0/
+  ./src/cursor-example
+
+By default, the example will start by populating a temporary
+address book with all of the vcards found in the 'cursor-0.1.0/data'
+directory.
+
+Alternatively, you can pass a relative or absolute path to 
+a directory containing ".vcf" vcard files, like so:
+
+  ./src/cursor-example /path/to/directory/containing/vcards
