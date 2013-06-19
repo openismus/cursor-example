@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Andersen;Elen;Delfina
+FN:Elen Delfina Andersen
+TEL;TYPE=work,pref:08861909643
+TEL;TYPE=home,voice,video:+3683021449
+EMAIL:elen@andersen.org
+EMAIL:elen.andersen@provider.com
+EMAIL;TYPE=home,work:elen.andersen@provider.com
+ADR;TYPE=postal,intl:41;;;Somogyhegyesvár;;69564;Hungary
+END:VCARD

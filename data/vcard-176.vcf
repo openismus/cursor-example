@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Young;Diana
+FN:Diana Young
+TEL;TYPE=voice:+3657398901
+EMAIL;TYPE=home,work:diana@young.org
+EMAIL;TYPE=work:diana@young.org
+ADR;TYPE=work,postal:;;Út Vesna Aburizk 21;Homokdob;;70573;Hungary
+END:VCARD

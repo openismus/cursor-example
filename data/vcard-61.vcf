@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Lahiri;Kristina
+FN:Kristina Lahiri
+TEL;TYPE=home,work,voice:0558466020
+TEL;TYPE=home,voice:090809181
+EMAIL;TYPE=home,work:kristina@lahiri.org
+X-JABBER;TYPE=home:kristina.lahiri@provider.com
+X-JABBER;TYPE=home:kristina.lahiri@company.com
+X-JABBER;TYPE=work:kristina.lahiri@company.com
+END:VCARD

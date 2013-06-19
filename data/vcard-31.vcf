@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Morris;Patricia
+FN:Patricia Morris
+TEL;TYPE=home:0341071941
+EMAIL:patricia.morris@company.com
+X-JABBER;TYPE=home,work:patricia@morris.org
+END:VCARD

@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Marinari;Isobella
+FN:Isobella Marinari
+TEL;TYPE=home:02311229983
+TEL;TYPE=home,pref,voice,cell:030136728
+X-JABBER;TYPE=home:25316468563@social.com
+X-JABBER;TYPE=home,work:8288622077@social.com
+END:VCARD

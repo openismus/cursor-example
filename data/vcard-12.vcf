@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Lukić;Anđela;Elizabete
+FN:Anđela Elizabete Lukić
+TEL;TYPE=home,fax:0994890151
+EMAIL:anela.lukic@provider.com
+X-JABBER;TYPE=work:anela.lukic@company.com
+X-JABBER;TYPE=home,work:65465543856@social.com
+ADR;TYPE=home,pref:19;;;Valdivia;;52897;Argentina
+END:VCARD

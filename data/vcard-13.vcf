@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Reed;Kamila
+FN:Kamila Reed
+TEL;TYPE=home,cell:+6453906319
+EMAIL;TYPE=work:kamila.reed@provider.com
+X-JABBER;TYPE=home,work:kamila.reed@company.com
+X-JABBER;TYPE=home,work:187491191312@social.com
+ADR;TYPE=parcel:;;36th Tudean Street;Exnor End;;95390;New Zealand
+END:VCARD

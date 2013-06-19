@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Papp;Chana
+FN:Chana Papp
+X-JABBER;TYPE=home,work:chana.papp@company.com
+X-JABBER;TYPE=work:chana@papp.org
+END:VCARD

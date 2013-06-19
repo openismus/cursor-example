@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Katz;Eduarda;Manon,Shahd
+FN:Eduarda Manon Shahd Katz
+TEL;TYPE=home:+35147587195
+EMAIL:eduarda.katz@provider.com
+EMAIL:eduarda.katz@provider.com
+X-JABBER;TYPE=work:7456765615@social.com
+X-JABBER;TYPE=work:7440522181@social.com
+X-JABBER;TYPE=home,work:eduarda.katz@company.com
+ADR;TYPE=home,work,postal:;;Avenida Ava Tala Dvořák 48;Barinas;;15530;Portugal
+END:VCARD

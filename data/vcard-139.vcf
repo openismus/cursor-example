@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ivanov;Vasiliki
+FN:Vasiliki Ivanov
+TEL;TYPE=work:0913021713
+X-JABBER;TYPE=home,work:7416044933@social.com
+X-JABBER;TYPE=home,work:4316728082@social.com
+ADR;TYPE=home,work:;;Via Catanzaro 11;Roccaviva;;22358;Italy
+END:VCARD

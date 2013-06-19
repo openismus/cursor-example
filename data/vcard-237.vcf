@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Petrauskas;Basiliki
+FN:Basiliki Petrauskas
+TEL;TYPE=home,voice:+67272867116
+EMAIL;TYPE=home,work:basiliki.petrauskas@company.com
+EMAIL;TYPE=work:basiliki.petrauskas@company.com
+EMAIL;TYPE=home,work:basiliki.petrauskas@provider.com
+ADR;TYPE=work,postal,intl:;;12nd Izaro Chandyo Street;Plonningdon Green;Keeling Islands;41652;Australia
+END:VCARD

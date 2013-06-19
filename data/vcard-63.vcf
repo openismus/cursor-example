@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Assif;Alessia
+FN:Alessia Assif
+TEL:09658942580
+EMAIL;TYPE=home:alessia.assif@company.com
+X-JABBER:9968657779@social.com
+X-JABBER:alessia.assif@company.com
+ADR;TYPE=work,parcel:;;Oskarbyn Väg 45;Bräpbukten;;96532;Sweden
+ADR;TYPE=home,parcel:;;Oskarbyn Väg 45;Sandbro;;61744;Sweden
+END:VCARD

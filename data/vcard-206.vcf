@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hassan;Mariami
+FN:Mariami Hassan
+TEL;TYPE=work,cell:067536625
+EMAIL;TYPE=work:mariami.hassan@company.com
+EMAIL;TYPE=home:mariami.hassan@company.com
+X-JABBER;TYPE=home,work:mariami.hassan@provider.com
+END:VCARD

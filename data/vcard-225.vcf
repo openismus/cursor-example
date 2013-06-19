@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ngô;Hoda
+FN:Hoda Ngô
+TEL;TYPE=work:030595795413
+TEL;TYPE=home,cell:091159310
+X-JABBER;TYPE=home:6415014275@social.com
+X-JABBER;TYPE=work:hoda.ngo@provider.com
+END:VCARD

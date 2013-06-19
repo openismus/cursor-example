@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Gim;Juri;Aada
+FN:Juri Aada Gim
+TEL;TYPE=home:+376160582713503
+TEL;TYPE=home:+37623282669
+TEL:026787483
+EMAIL:juri@gim.org
+EMAIL;TYPE=home:juri.gim@provider.com
+EMAIL;TYPE=home:juri@gim.org
+X-JABBER;TYPE=work:887847296072@social.com
+X-JABBER:juri.gim@company.com
+X-JABBER:juri.gim@company.com
+END:VCARD

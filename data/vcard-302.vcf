@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hồ;Kateryna
+FN:Kateryna Hồ
+TEL;TYPE=home:037184548
+TEL;TYPE=home,voice:+644139384165
+EMAIL;TYPE=home:kateryna.ho@provider.com
+X-JABBER;TYPE=home,work:kateryna.ho@company.com
+X-JABBER;TYPE=home,work:kateryna.ho@provider.com
+END:VCARD

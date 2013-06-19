@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hasson;Venla;Mariana
+FN:Venla Mariana Hasson
+TEL;TYPE=work,voice,cell:0531743172
+TEL;TYPE=work,voice,cell:0891382681
+EMAIL;TYPE=home,work:venla@hasson.org
+X-JABBER;TYPE=work:venla@hasson.org
+END:VCARD

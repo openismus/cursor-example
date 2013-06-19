@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Can;Assil
+FN:Assil Can
+TEL;TYPE=work,voice:+1264531048
+EMAIL;TYPE=work:assil.can@company.com
+ADR;TYPE=home,work:;;Rue Rimas Abu-Halun 32;Blois;;52764;Canada
+END:VCARD

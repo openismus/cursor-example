@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ponce;Uxue
+FN:Uxue Ponce
+TEL;TYPE=voice:0126336323623633
+X-JABBER:uxue@ponce.org
+X-JABBER;TYPE=work:9872142059@social.com
+ADR;TYPE=home:;;Avenida Krista Bozhinov 112;Manoa;;59998;Cuba
+END:VCARD

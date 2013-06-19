@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Koren;Manuela
+FN:Manuela Koren
+TEL;TYPE=home,work:+34495657335
+TEL;TYPE=home,video,cell:0749059047
+X-JABBER;TYPE=home:manuela.koren@provider.com
+X-JABBER;TYPE=home:manuela.koren@company.com
+ADR;TYPE=work,parcel:;;Carretera Quito 7;Tena;;49525;Spain
+END:VCARD

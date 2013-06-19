@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Flores;Misaki;Ioana,Raya
+FN:Misaki Ioana Raya Flores
+TEL;TYPE=work,cell:0915255090
+TEL;TYPE=home,work,cell:+3139479435
+EMAIL;TYPE=home,work:misaki.flores@provider.com
+ADR;TYPE=work,parcel,postal:;;15th Gazel Mertens Street;Sondingbury;;27396;Netherlands
+END:VCARD

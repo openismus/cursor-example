@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Møller;Akshara
+FN:Akshara Møller
+TEL;TYPE=home,work,voice:+247127031733
+TEL;TYPE=home,work,pref:0295678296
+EMAIL;TYPE=home,work:akshara.mller@company.com
+ADR;TYPE=home,work,parcel,intl:;;59th Frunside Street;St. Nantstock;;43527;United Kingdom
+END:VCARD

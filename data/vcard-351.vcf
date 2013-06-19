@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Dupont;Ruhi;Abbigail,Maja
+FN:Ruhi Abbigail Maja Dupont
+TEL;TYPE=voice,cell:027003156
+X-JABBER:3409861340@social.com
+X-JABBER;TYPE=home,work:ruhi.dupont@provider.com
+ADR;TYPE=work,postal:;;Rue Anette Rizzo 2;Cannes;;80655;Haiti
+END:VCARD

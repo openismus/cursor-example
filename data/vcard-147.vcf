@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Paredes;Milena;Aikaterini
+FN:Milena Aikaterini Paredes
+TEL;TYPE=home:1260022314992
+TEL:+1542713610265
+EMAIL:milena@paredes.org
+EMAIL;TYPE=work:milena.paredes@company.com
+X-JABBER:milena.paredes@provider.com
+X-JABBER:9202964686@social.com
+ADR;TYPE=parcel:;;22nd Antonia Vesna Aarya Lahout Street;Sesleigh;Maine;66786;United States
+ADR;TYPE=home,postal:;;22nd Antonia Vesna Aarya Lahout Street;Luningdore;Maine;60342;United States
+END:VCARD

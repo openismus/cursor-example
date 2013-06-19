@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Pettersson;Subin;Nikolina,Brianna,Katie
+FN:Subin Nikolina Brianna Katie Pettersson
+TEL;TYPE=work,voice,video,cell:+47578108382
+TEL:+4746095646
+EMAIL;TYPE=home:subin.pettersson@provider.com
+EMAIL;TYPE=work:subin@pettersson.org
+EMAIL;TYPE=work:subin.pettersson@company.com
+ADR;TYPE=home,work,parcel:;;Simona Lê Vei 18;Vesthøa;;33144;Norway
+END:VCARD

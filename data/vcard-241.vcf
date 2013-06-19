@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Smith;Norah;Aada,Ruby,Nika
+FN:Norah Aada Ruby Nika Smith
+TEL;TYPE=home:062799821
+TEL;TYPE=home:0940218589
+EMAIL;TYPE=work:norah.smith@company.com
+X-JABBER;TYPE=work:6937497698@social.com
+END:VCARD

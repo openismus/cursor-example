@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Khan;Farida
+FN:Farida Khan
+TEL;TYPE=home:06141849366
+X-JABBER;TYPE=home:farida.khan@company.com
+X-JABBER;TYPE=home,work:61771534182@social.com
+X-JABBER:farida@khan.org
+ADR;TYPE=intl:;;Rue Zoé Oyunbileg Gashi 28;Beaujolais;;51304;Guinea
+END:VCARD

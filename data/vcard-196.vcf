@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Villalobos;Alexandra
+FN:Alexandra Villalobos
+TEL;TYPE=work,fax:04257496491
+TEL;TYPE=home,work,voice,cell:+54539301651
+EMAIL;TYPE=home:alexandra.villalobos@provider.com
+END:VCARD

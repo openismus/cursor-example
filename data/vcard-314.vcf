@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:van Dijck;Teodora;Rachida,Mane
+FN:Teodora Rachida Mane van Dijck
+TEL;TYPE=work,voice,cell:+1808661433154
+EMAIL:teodora.van.dijck@provider.com
+EMAIL;TYPE=work:teodora.van.dijck@provider.com
+END:VCARD

@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Vong;Nika;Nazrin
+FN:Nika Nazrin Vong
+TEL;TYPE=home,work,pref:07348168111
+EMAIL;TYPE=work:nika.vong@provider.com
+END:VCARD

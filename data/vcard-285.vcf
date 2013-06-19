@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Pastorino;Margret
+FN:Margret Pastorino
+TEL;TYPE=home,voice:0963262590
+EMAIL;TYPE=work:margret.pastorino@company.com
+EMAIL;TYPE=work:margret.pastorino@company.com
+X-JABBER;TYPE=home,work:1269475241@social.com
+X-JABBER;TYPE=home,work:1140330870@social.com
+ADR;TYPE=home,work:;;Boulevard Auxerre 28;Marseille;;37355;Martinique
+END:VCARD

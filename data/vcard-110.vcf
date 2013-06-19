@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Carvajal;Misaki;Margrjet,Setayesh
+FN:Misaki Margrjet Setayesh Carvajal
+TEL;TYPE=home,cell:013453078
+EMAIL:misaki.carvajal@provider.com
+X-JABBER;TYPE=home,work:misaki.carvajal@company.com
+X-JABBER;TYPE=home,work:misaki.carvajal@provider.com
+END:VCARD

@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hagen;Lisa
+FN:Lisa Hagen
+X-JABBER;TYPE=work:7751055379@social.com
+X-JABBER;TYPE=home:lisa.hagen@company.com
+END:VCARD

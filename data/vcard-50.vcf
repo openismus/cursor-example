@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Moro;Elisa
+FN:Elisa Moro
+TEL;TYPE=home,pref:046575391
+EMAIL;TYPE=work:elisa.moro@provider.com
+ADR;TYPE=home,pref:;c/o Paula Donoso;Carretera London Di Paolo 19;Fortin Esteros;;57979;Argentina
+END:VCARD

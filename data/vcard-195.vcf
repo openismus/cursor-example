@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Jović;Luísa
+FN:Luísa Jović
+TEL;TYPE=home,pref:0602175604805
+TEL;TYPE=home,pref,voice,cell:049981796
+X-JABBER;TYPE=home,work:luisa.jovic@company.com
+X-JABBER:luisa.jovic@company.com
+END:VCARD

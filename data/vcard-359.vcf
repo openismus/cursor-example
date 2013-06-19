@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Johnston;Fatemeh
+FN:Fatemeh Johnston
+TEL;TYPE=voice:+2995750651389
+EMAIL;TYPE=home:fatemeh.johnston@provider.com
+X-JABBER;TYPE=home:fatemeh.johnston@provider.com
+X-JABBER;TYPE=work:fatemeh.johnston@provider.com
+END:VCARD

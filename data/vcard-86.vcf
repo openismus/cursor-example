@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Saavedra;Dilay
+FN:Dilay Saavedra
+TEL;TYPE=home,voice,fax:+4992755571670
+EMAIL;TYPE=home,work:dilay@saavedra.org
+ADR;TYPE=work:;c/o Irene Sara Santana;Ella Jackson Allee 57;Essen an der Donau;;24881;Germany
+END:VCARD

@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Martins;Karin
+FN:Karin Martins
+TEL;TYPE=home,work:019832358
+EMAIL;TYPE=home:karin.martins@company.com
+END:VCARD

@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Laurent;Lina
+FN:Lina Laurent
+TEL;TYPE=pref,voice,cell:063500630
+X-JABBER;TYPE=home,work:lina.laurent@company.com
+X-JABBER;TYPE=home,work:1886072343@social.com
+END:VCARD

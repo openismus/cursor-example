@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Steiner;Jóhanna
+FN:Jóhanna Steiner
+TEL;TYPE=work,pref:036661274
+TEL;TYPE=voice,cell:060302180
+TEL;TYPE=cell:08622582013
+EMAIL;TYPE=home,work:johanna.steiner@provider.com
+END:VCARD

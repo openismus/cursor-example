@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Al-Khazraji;Sofija
+FN:Sofija Al-Khazraji
+TEL;TYPE=cell:+5880106570
+EMAIL:sofija.al-khazraji@provider.com
+X-JABBER;TYPE=home:sofija.al-khazraji@company.com
+X-JABBER;TYPE=home:5148241984@social.com
+ADR;TYPE=home,work,pref:;;Carretera Ariel Aylin Poulsen 116;Puerto Ordaz;;80646;Venezuela
+END:VCARD

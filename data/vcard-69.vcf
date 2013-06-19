@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Čengić;Gunay
+FN:Gunay Čengić
+TEL;TYPE=home,work,voice:+41314816384
+EMAIL;TYPE=work:gunay@cengic.org
+X-JABBER;TYPE=work:gunay.cengic@provider.com
+ADR;TYPE=home,work,dom,intl:;;Raya Babayev Straße 10;Thun;;43097;Switzerland
+END:VCARD

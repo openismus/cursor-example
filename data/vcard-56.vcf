@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Jeon;Milica
+FN:Milica Jeon
+TEL;TYPE=home,work,cell:+64438671770
+TEL;TYPE=home,cell:03671552977
+EMAIL:milica.jeon@company.com
+EMAIL;TYPE=work:milica.jeon@provider.com
+X-JABBER;TYPE=home,work:8787024903@social.com
+ADR:;;4th Angela Ahmeti Lane;Sleedstow;;41089;New Zealand
+END:VCARD

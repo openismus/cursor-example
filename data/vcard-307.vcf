@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Jee;Sofía
+FN:Sofía Jee
+TEL;TYPE=home:+349052638734
+TEL:+3453131885
+TEL;TYPE=work,voice:+34852025059750
+EMAIL;TYPE=home,work:sofia@jee.org
+X-JABBER;TYPE=home:sofia.jee@company.com
+X-JABBER:9678577124@social.com
+END:VCARD

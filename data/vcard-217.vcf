@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Johnston;Elsa
+FN:Elsa Johnston
+TEL;TYPE=work,pref,voice:026722802
+TEL;TYPE=home,work,voice:09186478331
+EMAIL:elsa.johnston@provider.com
+X-JABBER;TYPE=home,work:7850475477@social.com
+ADR;TYPE=home,work,pref,intl:;c/o Mara Mǎ;Mariana Ieong Straße 30;Bad St. Oswald am Wechsel;;80284;Austria
+END:VCARD

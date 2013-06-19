@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Guevarra;Ma*soumeh
+FN:Ma*soumeh Guevarra
+TEL;TYPE=work,voice:+3263072554
+EMAIL:masoumeh.guevarra@company.com
+X-JABBER;TYPE=home:masoumeh.guevarra@provider.com
+X-JABBER:masoumeh.guevarra@company.com
+END:VCARD

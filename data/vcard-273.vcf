@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Semyonov;Alondra
+FN:Alondra Semyonov
+TEL;TYPE=home:+4952247692
+EMAIL:alondra.semyonov@provider.com
+EMAIL;TYPE=home,work:alondra@semyonov.org
+END:VCARD

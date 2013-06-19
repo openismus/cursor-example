@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Joeng;Anette
+FN:Anette Joeng
+TEL;TYPE=home,work,cell:+59263838927842
+TEL;TYPE=cell:0585128202
+X-JABBER:9130946603@social.com
+X-JABBER:anette.joeng@company.com
+ADR;TYPE=home:;;18th Finville Street;Suntminster;;94356;Guyana
+END:VCARD

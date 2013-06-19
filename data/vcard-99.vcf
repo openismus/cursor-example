@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Leiva;Aleksandra;Evelīna,Luísa
+FN:Aleksandra Evelīna Luísa Leiva
+TEL;TYPE=work,voice:057278289
+TEL;TYPE=work,pref,voice:07167262615307
+EMAIL;TYPE=work:aleksandra.leiva@provider.com
+END:VCARD

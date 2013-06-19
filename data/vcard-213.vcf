@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:van Dijck;Omer
+FN:Omer van Dijck
+TEL;TYPE=pref,voice:04416070225
+EMAIL:omer.van.dijck@provider.com
+ADR;TYPE=home,work:;;Körút Teodora Paik 56;Alsó-Biharladány;;89883;Hungary
+END:VCARD

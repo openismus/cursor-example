@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:de Groot;Nina
+FN:Nina de Groot
+TEL;TYPE=pref,voice:+39566170658
+EMAIL;TYPE=home,work:nina.de.groot@provider.com
+X-JABBER;TYPE=work:nina.de.groot@provider.com
+X-JABBER;TYPE=home,work:9314591345@social.com
+ADR;TYPE=home,work,intl:;;Via Yelysaveta Gabija Yamasaki 41;Fonteferro delle Fonti;;28051;Italy
+END:VCARD

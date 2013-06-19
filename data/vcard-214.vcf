@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Møller;Eliška
+FN:Eliška Møller
+TEL:061141893
+EMAIL:eliska.mller@provider.com
+X-JABBER;TYPE=home,work:4001406680@social.com
+ADR;TYPE=work,postal,intl:;;Út Aimee Đỗ 85;Nagy-Dunakereszt;;13311;Hungary
+END:VCARD

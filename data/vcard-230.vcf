@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Klemenčič;Elise
+FN:Elise Klemenčič
+TEL;TYPE=pref,voice,cell:+1635440350186
+TEL;TYPE=home,voice,cell:114101722
+EMAIL:elise.klemencic@provider.com
+X-JABBER;TYPE=home,work:elise.klemencic@provider.com
+ADR;TYPE=work:;;Voie Martina Sorrentino 73;Compiègne;;30744;Canada
+END:VCARD

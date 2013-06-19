@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Galli;Elise
+FN:Elise Galli
+TEL;TYPE=home,work,voice:047119426
+TEL;TYPE=home:+47267032891
+TEL;TYPE=voice:+47176829209
+EMAIL;TYPE=work:elise.galli@provider.com
+EMAIL:elise@galli.org
+EMAIL;TYPE=work:elise.galli@provider.com
+X-JABBER;TYPE=home,work:elise.galli@company.com
+X-JABBER;TYPE=home:elise.galli@company.com
+X-JABBER;TYPE=home,work:elise.galli@provider.com
+END:VCARD

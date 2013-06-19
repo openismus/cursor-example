@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Paulauskas;Margarida;Nela
+FN:Margarida Nela Paulauskas
+TEL;TYPE=home,work:0235806320
+X-JABBER;TYPE=home:margarida.paulauskas@company.com
+X-JABBER:margarida.paulauskas@company.com
+ADR:;;Carretera Barquisimeto 19;Puerto Chala;;75600;Chile
+END:VCARD

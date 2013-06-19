@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Shimizu;Arianna
+FN:Arianna Shimizu
+TEL;TYPE=pref,voice:+545287496121
+TEL;TYPE=cell:+542634569478
+EMAIL;TYPE=home,work:arianna@shimizu.org
+END:VCARD

@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Yamazaki;Ioana
+FN:Ioana Yamazaki
+TEL;TYPE=work,voice,cell:018607638
+EMAIL;TYPE=home:ioana.yamazaki@company.com
+X-JABBER;TYPE=work:ioana.yamazaki@provider.com
+END:VCARD

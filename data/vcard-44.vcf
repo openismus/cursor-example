@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Mustafa;Noor
+FN:Noor Mustafa
+TEL;TYPE=home,work,voice,cell:151121979
+TEL;TYPE=home,voice:162888191636334
+TEL;TYPE=work,voice:+11023767130
+EMAIL;TYPE=home,work:noor@mustafa.org
+EMAIL;TYPE=home,work:noor@mustafa.org
+ADR:;;11st Bruncombe Street;Lewiswood;;87382;Canada
+END:VCARD

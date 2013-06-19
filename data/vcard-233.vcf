@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Martin;Maëlys
+FN:Maëlys Martin
+TEL;TYPE=voice:+5537175528
+TEL;TYPE=work,pref,voice:+552758800698
+EMAIL;TYPE=home,work:maelys.martin@company.com
+END:VCARD

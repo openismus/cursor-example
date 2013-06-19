@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Shekhawat;Amy
+FN:Amy Shekhawat
+TEL:18930748523
+EMAIL:amy.shekhawat@company.com
+EMAIL:amy.shekhawat@company.com
+X-JABBER;TYPE=home,work:amy.shekhawat@company.com
+X-JABBER;TYPE=work:4519500427@social.com
+END:VCARD

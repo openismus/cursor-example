@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ferreyra;Rudaina;Chloé
+FN:Rudaina Chloé Ferreyra
+EMAIL;TYPE=home:rudaina.ferreyra@company.com
+X-JABBER;TYPE=home,work:rudaina.ferreyra@provider.com
+X-JABBER;TYPE=home,work:5365682208@social.com
+END:VCARD

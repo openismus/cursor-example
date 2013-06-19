@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Benítez;Maya;Shahd
+FN:Maya Shahd Benítez
+EMAIL;TYPE=work:maya@benitez.org
+EMAIL:maya.benitez@provider.com
+EMAIL:maya.benitez@provider.com
+ADR;TYPE=intl:;;Carretera Machala 20;Barquisimeto;;57223;Mexico
+ADR;TYPE=home,intl:;;Carretera Machala 20;Huacho;;11930;Mexico
+END:VCARD

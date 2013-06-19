@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Svoboda;Fatma
+FN:Fatma Svoboda
+TEL;TYPE=work:+4848660801
+TEL:01165524181
+EMAIL:fatma@svoboda.org
+X-JABBER;TYPE=home,work:fatma.svoboda@provider.com
+X-JABBER;TYPE=home,work:fatma.svoboda@provider.com
+END:VCARD

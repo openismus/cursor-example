@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Lynch;Ajna
+FN:Ajna Lynch
+TEL;TYPE=home,pref,voice,cell:0624142510
+EMAIL;TYPE=home,work:ajna.lynch@company.com
+EMAIL;TYPE=home:ajna.lynch@provider.com
+ADR;TYPE=home,pref:;;Carretera Zaragoza 4;Zaragoza;;13908;Cuba
+END:VCARD

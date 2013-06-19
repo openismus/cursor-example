@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Vries;Emilie
+FN:Emilie Vries
+TEL;TYPE=home:+6438194035
+TEL;TYPE=home,work:090789694
+TEL;TYPE=home,cell:+647886891514
+EMAIL;TYPE=home:emilie.vries@provider.com
+EMAIL;TYPE=home,work:emilie.vries@company.com
+ADR;TYPE=postal,intl:;;75th Aicha Ponte Street;St. Malbrook Marsh;;73987;New Zealand
+END:VCARD

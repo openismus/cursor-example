@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Watson;Angel
+FN:Angel Watson
+TEL;TYPE=voice:+26277085111
+TEL;TYPE=voice,cell:017051431
+ADR;TYPE=home,work,intl:;;Rue Jada Mousawi 5;La Rochelle;;66482;France
+END:VCARD

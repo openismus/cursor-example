@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Zhào;Jade
+FN:Jade Zhào
+TEL;TYPE=home,work,video:0559729914
+EMAIL;TYPE=home:jade.zhao@provider.com
+END:VCARD

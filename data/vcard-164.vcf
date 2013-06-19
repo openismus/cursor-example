@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Visintin;Emilia
+FN:Emilia Visintin
+TEL;TYPE=work,voice,cell:+4049866026
+TEL;TYPE=voice:087226907
+TEL;TYPE=work,cell:+40375830318
+EMAIL;TYPE=home,work:emilia.visintin@company.com
+EMAIL:emilia.visintin@company.com
+ADR;TYPE=intl:;;Bulevard Fatemeh Magnusson 5;Turda;;36697;Romania
+END:VCARD

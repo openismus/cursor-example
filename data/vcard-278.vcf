@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Semaan;Léa
+FN:Léa Semaan
+TEL;TYPE=home,work,voice:+5634774075
+EMAIL;TYPE=home:lea@semaan.org
+X-JABBER;TYPE=home,work:lea.semaan@company.com
+ADR:;;Carretera Suzana Delgado 55;Ascension;;85808;Chile
+END:VCARD

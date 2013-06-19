@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Jaffari;Eva
+FN:Eva Jaffari
+TEL;TYPE=pref,voice,video:+2242269467304
+TEL;TYPE=work,voice,cell:+2248015697712
+TEL;TYPE=home,voice:+22459408013
+EMAIL;TYPE=home:eva.jaffari@provider.com
+EMAIL;TYPE=home,work:eva@jaffari.org
+ADR;TYPE=home,parcel,postal:;;Rue Montpellier 5;Angers;;72909;Guinea
+END:VCARD

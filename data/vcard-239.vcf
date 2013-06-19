@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Demello;Patricia
+FN:Patricia Demello
+TEL;TYPE=work:08908763935536
+EMAIL;TYPE=home,work:patricia.demello@company.com
+X-JABBER;TYPE=work:patricia.demello@provider.com
+X-JABBER:3952967167@social.com
+ADR;TYPE=home,postal:;;17th Ajla Rihanna Abdoo Avenue;Chinthaven Common;;14939;Cook Islands
+END:VCARD

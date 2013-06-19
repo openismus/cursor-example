@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kastelic;Marta
+FN:Marta Kastelic
+TEL;TYPE=cell:+4660782795
+EMAIL;TYPE=home,work:marta.kastelic@provider.com
+ADR;TYPE=home,pref,parcel,postal,intl:;;Wiktoria Sepúlveda Väg 11;Österlöv;;53500;Sweden
+END:VCARD

@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Borisov;Gazel
+FN:Gazel Borisov
+TEL;TYPE=home,work,cell:08376503101
+EMAIL;TYPE=home,work:gazel.borisov@company.com
+EMAIL:gazel.borisov@provider.com
+EMAIL:gazel.borisov@company.com
+END:VCARD

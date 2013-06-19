@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Mertens;Saar
+FN:Saar Mertens
+TEL;TYPE=voice,fax:+57713102157
+TEL;TYPE=home,work:+57958911281
+X-JABBER;TYPE=work:saar@mertens.org
+ADR;TYPE=parcel,intl:;;Carretera Margrjet Koller 6;Cata;;51768;Colombia
+ADR:;;Carretera Margrjet Koller 6;Cali;;51505;Colombia
+END:VCARD

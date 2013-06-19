@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Nallbani;Michaela;Ani
+FN:Michaela Ani Nallbani
+TEL:+539920548313360015
+TEL;TYPE=voice:038593997
+X-JABBER;TYPE=work:michaela.nallbani@provider.com
+X-JABBER;TYPE=home:michaela.nallbani@company.com
+X-JABBER;TYPE=home,work:95054358614@social.com
+END:VCARD

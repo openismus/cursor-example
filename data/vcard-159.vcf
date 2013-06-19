@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Chea;Barbara
+FN:Barbara Chea
+TEL;TYPE=work,voice:+4662030305
+TEL;TYPE=work,voice:+46720284725
+TEL;TYPE=home:+46610809831
+X-JABBER:barbara.chea@company.com
+X-JABBER:5179648534@social.com
+ADR;TYPE=parcel,postal:;;Trolludde Väg 28;Strömstad;;78452;Sweden
+END:VCARD

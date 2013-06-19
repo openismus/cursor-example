@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hussein;Shamma
+FN:Shamma Hussein
+TEL;TYPE=home,work,voice:+3618510970
+TEL;TYPE=voice,cell:+3682137601
+TEL;TYPE=home,work:0899500945
+EMAIL;TYPE=work:shamma@hussein.org
+X-JABBER:shamma.hussein@company.com
+END:VCARD

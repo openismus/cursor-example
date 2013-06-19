@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Campbell;Madison
+FN:Madison Campbell
+TEL;TYPE=voice,cell:066111305245
+TEL;TYPE=home,work,voice,fax:04940190157
+EMAIL;TYPE=work:madison@campbell.org
+X-JABBER;TYPE=work:madison.campbell@provider.com
+ADR;TYPE=work,parcel:;;Carretera Liisa Rivero 13;Carupano;;31107;Mexico
+END:VCARD

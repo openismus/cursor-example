@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Nahra;Ema
+FN:Ema Nahra
+TEL;TYPE=work,pref,voice:+5145003461
+TEL;TYPE=work,voice,cell:+5178128106
+ADR;TYPE=home,work,parcel:;;Carril Daniel Bennett 7;Caracas;;64363;Peru
+END:VCARD

@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Armas;Uiloq
+FN:Uiloq Armas
+TEL;TYPE=home:+54442698230
+EMAIL;TYPE=home:uiloq.armas@company.com
+EMAIL;TYPE=home,work:uiloq@armas.org
+END:VCARD

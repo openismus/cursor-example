@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Halil;Adi
+FN:Adi Halil
+TEL;TYPE=home,cell:06917145171705
+TEL;TYPE=cell:+644742297119
+TEL;TYPE=voice:+641706649035
+X-JABBER;TYPE=work:8820943328@social.com
+X-JABBER;TYPE=work:adi.halil@provider.com
+END:VCARD

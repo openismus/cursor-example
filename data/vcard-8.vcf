@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hussain;Siiri
+FN:Siiri Hussain
+TEL;TYPE=home,work,voice,cell:+464786043249
+EMAIL:siiri.hussain@provider.com
+ADR;TYPE=home,work,pref,postal:;;Tvyskköping Väg 17;Enköping;;56656;Sweden
+END:VCARD

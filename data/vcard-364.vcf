@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Back;Chaya
+FN:Chaya Back
+TEL;TYPE=work,voice:+64351931564
+TEL;TYPE=home,voice,fax:0598627814
+TEL;TYPE=pref,voice:0245844440
+X-JABBER:chaya.back@company.com
+X-JABBER;TYPE=home,work:chaya@back.org
+END:VCARD

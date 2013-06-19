@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Bac;Rudaina
+FN:Rudaina Bac
+TEL;TYPE=home,work,video,cell:+54636168497
+EMAIL:rudaina.bac@provider.com
+EMAIL;TYPE=home,work:rudaina.bac@company.com
+EMAIL;TYPE=home,work:rudaina.bac@provider.com
+X-JABBER:rudaina.bac@provider.com
+X-JABBER;TYPE=home,work:rudaina.bac@provider.com
+X-JABBER;TYPE=home,work:rudaina.bac@company.com
+END:VCARD

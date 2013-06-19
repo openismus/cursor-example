@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Yamazaki;Agostina
+FN:Agostina Yamazaki
+TEL;TYPE=home,work,pref:+5635547094
+TEL;TYPE=home:0673429439
+X-JABBER;TYPE=home:agostina.yamazaki@company.com
+X-JABBER;TYPE=home,work:4764033033@social.com
+ADR;TYPE=home:;;Carretera Wilma Martin 49;Guayana;;64087;Easter Island
+END:VCARD

@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Daher;Fatima
+FN:Fatima Daher
+TEL;TYPE=work,pref,voice,cell:072798111374965
+EMAIL:fatima.daher@company.com
+ADR;TYPE=home,dom:;;Carretera Milena Aanya Aysel Delić 38;San Carlos;;76022;Chile
+END:VCARD

@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Chandyo;Tala
+FN:Tala Chandyo
+TEL;TYPE=home,work,video,fax:0251674163
+EMAIL:tala@chandyo.org
+ADR;TYPE=home,work,intl:;;Maja Louis Straße 5;Liestal;;65595;Switzerland
+END:VCARD

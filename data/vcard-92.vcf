@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Abou-Halloun;Kayla
+FN:Kayla Abou-Halloun
+TEL;TYPE=home,cell:0378742254
+EMAIL;TYPE=work:kayla.abou-halloun@company.com
+ADR;TYPE=home:47;;;Vöslach;;28234;Austria
+END:VCARD

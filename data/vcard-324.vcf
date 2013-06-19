@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Khulbe;Alisa
+FN:Alisa Khulbe
+TEL;TYPE=work:081699300
+EMAIL;TYPE=work:alisa.khulbe@company.com
+ADR;TYPE=home,work,postal,intl:;;Rutier Linnea Hwang 27;Craiova;;30314;Romania
+END:VCARD

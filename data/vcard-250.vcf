@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Johnston;Hala
+FN:Hala Johnston
+TEL;TYPE=home,work,pref,voice:18548931961
+EMAIL;TYPE=home:hala.johnston@provider.com
+X-JABBER:hala.johnston@company.com
+X-JABBER;TYPE=home,work:9386325696@social.com
+END:VCARD

@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Vázquez;Katalin
+FN:Katalin Vázquez
+TEL;TYPE=home:+56178081420212
+TEL;TYPE=voice:083378477791
+EMAIL;TYPE=work:katalin.vazquez@provider.com
+EMAIL;TYPE=work:katalin.vazquez@company.com
+ADR:60;;;Lima;;14316;Chile
+END:VCARD

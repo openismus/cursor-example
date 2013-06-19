@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Sartori;Luciana
+FN:Luciana Sartori
+TEL;TYPE=work,pref:+39440797763
+EMAIL;TYPE=work:luciana.sartori@provider.com
+EMAIL;TYPE=work:luciana.sartori@company.com
+X-JABBER;TYPE=home:luciana.sartori@company.com
+X-JABBER;TYPE=home,work:luciana.sartori@provider.com
+END:VCARD

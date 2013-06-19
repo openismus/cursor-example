@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hoàng;Shira
+FN:Shira Hoàng
+X-JABBER;TYPE=home:shira.hoang@company.com
+X-JABBER;TYPE=home,work:8159789151@social.com
+END:VCARD

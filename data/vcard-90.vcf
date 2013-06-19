@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Jawahiri;Suzana
+FN:Suzana Jawahiri
+TEL;TYPE=home,pref,video,cell:053657961
+TEL;TYPE=home,cell:05506966809
+TEL;TYPE=home,work:+4777264834
+EMAIL:suzana.jawahiri@company.com
+EMAIL;TYPE=home,work:suzana.jawahiri@provider.com
+ADR;TYPE=work,parcel,intl:;;Elise Jokinen Vei 36;Vikbakken;;57315;Norway
+END:VCARD

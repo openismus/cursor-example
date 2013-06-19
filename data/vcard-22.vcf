@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Koak;Derya
+FN:Derya Koak
+TEL;TYPE=home,work:+3416048537
+TEL:06837518850
+EMAIL;TYPE=work:derya.koak@provider.com
+EMAIL:derya.koak@provider.com
+X-JABBER;TYPE=home:derya.koak@company.com
+X-JABBER;TYPE=home:2803858040@social.com
+END:VCARD

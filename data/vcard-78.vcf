@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Zhāng;Julianna
+FN:Julianna Zhāng
+TEL;TYPE=home,work,pref,voice,cell:+297888652279
+TEL;TYPE=home,voice:+297876675967
+EMAIL;TYPE=home:julianna.zhang@provider.com
+X-JABBER;TYPE=home:5004777435@social.com
+X-JABBER;TYPE=home,work:3134666912@social.com
+END:VCARD

@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Perri;Isobel
+FN:Isobel Perri
+TEL;TYPE=work,voice:+35711878491
+EMAIL;TYPE=home,work:isobel.perri@provider.com
+EMAIL;TYPE=home,work:isobel.perri@provider.com
+EMAIL;TYPE=home,work:isobel.perri@company.com
+END:VCARD

@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Petersson;Elen
+FN:Elen Petersson
+TEL;TYPE=home:+57127124518
+EMAIL;TYPE=home:elen.petersson@provider.com
+ADR;TYPE=postal,dom:;;Carretera Magdalena 1;Iquitos;;88107;Colombia
+END:VCARD

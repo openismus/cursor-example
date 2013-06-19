@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ju;Hasty
+FN:Hasty Ju
+TEL;TYPE=work:+5814734839
+TEL;TYPE=home,voice:0725307691
+EMAIL;TYPE=home:hasty.ju@company.com
+ADR;TYPE=home,pref,parcel:;;Carretera Ascension 6;Santa Ana;;89840;Venezuela
+END:VCARD

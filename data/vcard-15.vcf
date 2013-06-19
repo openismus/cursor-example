@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Vázquez;Emelía
+FN:Emelía Vázquez
+TEL;TYPE=work,cell:098327049
+TEL:0754952654
+EMAIL;TYPE=work:emelia.vazquez@company.com
+EMAIL;TYPE=home:emelia.vazquez@company.com
+EMAIL:emelia.vazquez@provider.com
+X-JABBER;TYPE=home,work:emelia.vazquez@provider.com
+X-JABBER;TYPE=home,work:166680246162@social.com
+ADR;TYPE=postal:;;Carretera Biljana Perera 68;Quito;;74361;Argentina
+END:VCARD

@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Lagos;Maxine
+FN:Maxine Lagos
+EMAIL;TYPE=work:maxine.lagos@provider.com
+ADR;TYPE=work,parcel,dom,intl:;;Rue Viola Shengelia 5;Morlaix;;18890;Belgium
+END:VCARD

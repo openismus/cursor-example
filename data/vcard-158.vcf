@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Bertrand;Madinah
+FN:Madinah Bertrand
+TEL;TYPE=voice:083272590
+X-JABBER;TYPE=work:madinah.bertrand@provider.com
+END:VCARD

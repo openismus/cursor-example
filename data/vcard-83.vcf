@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Iglesias;Hala
+FN:Hala Iglesias
+TEL;TYPE=home,work,pref,voice:+5644682349
+TEL;TYPE=voice,cell:0317298361
+EMAIL;TYPE=home,work:hala@iglesias.org
+EMAIL:hala.iglesias@provider.com
+END:VCARD

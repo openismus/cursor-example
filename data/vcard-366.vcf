@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ferraro;Talia
+FN:Talia Ferraro
+TEL;TYPE=work,voice:051892095
+X-JABBER;TYPE=home:talia.ferraro@company.com
+X-JABBER:8143075085@social.com
+END:VCARD

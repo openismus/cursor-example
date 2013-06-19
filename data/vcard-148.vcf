@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:De Boer;Barbora
+FN:Barbora De Boer
+TEL;TYPE=work,cell:+2473036129263
+TEL;TYPE=work:0106817973
+EMAIL;TYPE=work:barbora.de.boer@company.com
+X-JABBER;TYPE=home:9380447923@social.com
+X-JABBER;TYPE=home,work:barbora.de.boer@provider.com
+ADR;TYPE=home,work,parcel,postal,intl:99;;;Lewisport;Turks Islands;80453;United Kingdom
+END:VCARD

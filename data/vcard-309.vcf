@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Perković;Khushi
+FN:Khushi Perković
+TEL:030744928
+TEL;TYPE=home,work:+50416086151
+EMAIL;TYPE=work:khushi.perkovic@provider.com
+X-JABBER;TYPE=home,work:59609025271@social.com
+END:VCARD

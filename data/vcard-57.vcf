@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Novikov;Leah
+FN:Leah Novikov
+TEL;TYPE=work,pref,voice:013941847010
+EMAIL:leah.novikov@company.com
+ADR;TYPE=home,work:;;Kateřina Singh Vej 13;Sakssten;;47231;Denmark
+END:VCARD

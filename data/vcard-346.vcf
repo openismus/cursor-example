@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Cardozo;Vivia
+FN:Vivia Cardozo
+EMAIL;TYPE=work:vivia.cardozo@company.com
+X-JABBER:6480192437@social.com
+X-JABBER:vivia.cardozo@provider.com
+ADR;TYPE=intl:;;Estrada Dimitra Attasi 35;Santiago;;86168;Brazil
+END:VCARD

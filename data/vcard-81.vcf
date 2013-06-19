@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ogawa;Vasiliki
+FN:Vasiliki Ogawa
+TEL;TYPE=voice,cell:0355410474873996
+X-JABBER;TYPE=work:vasiliki.ogawa@provider.com
+X-JABBER;TYPE=home,work:vasiliki.ogawa@provider.com
+END:VCARD

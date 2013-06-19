@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Lau;Yua
+FN:Yua Lau
+TEL;TYPE=work,voice:+50471937419479462
+TEL;TYPE=home,work,voice:+50470890105
+X-JABBER:yua.lau@company.com
+X-JABBER;TYPE=work:3062015880@social.com
+X-JABBER:yua.lau@provider.com
+ADR;TYPE=parcel:;;Carretera Fatemeh van Dijck 61;Cuenca;;43255;Honduras
+END:VCARD

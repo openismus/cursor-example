@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kahla;Chloé
+FN:Chloé Kahla
+EMAIL;TYPE=home:chloe.kahla@provider.com
+EMAIL;TYPE=home:chloe.kahla@company.com
+X-JABBER;TYPE=home,work:69475597425@social.com
+X-JABBER;TYPE=home:2760922593@social.com
+ADR;TYPE=home,work,parcel,postal:;c/o Isobella Marjanović;Straßer Vöslkreuz 59;Mitternkirch am Hausruck;;17945;Austria
+END:VCARD

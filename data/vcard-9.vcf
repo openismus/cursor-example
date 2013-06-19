@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Abou-Halloun;Konul
+FN:Konul Abou-Halloun
+TEL;TYPE=home,work:+298709675181695
+X-JABBER;TYPE=home,work:konul.abou-halloun@provider.com
+X-JABBER;TYPE=home:12794003918@social.com
+END:VCARD

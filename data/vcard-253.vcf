@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Cho;Mariam
+FN:Mariam Cho
+TEL;TYPE=work,pref:+596682494581698
+EMAIL;TYPE=home,work:mariam.cho@company.com
+X-JABBER;TYPE=home:mariam.cho@company.com
+X-JABBER:7402733456@social.com
+END:VCARD

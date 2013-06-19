@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Barzangi;Natália
+FN:Natália Barzangi
+TEL;TYPE=pref,fax,cell:+4568477858
+TEL;TYPE=voice:+4520334548
+TEL;TYPE=work:061310566
+EMAIL;TYPE=home,work:natalia.barzangi@provider.com
+EMAIL;TYPE=work:natalia.barzangi@provider.com
+EMAIL;TYPE=home,work:natalia.barzangi@provider.com
+X-JABBER;TYPE=work:natalia.barzangi@company.com
+X-JABBER;TYPE=home:7768205012@social.com
+ADR;TYPE=home,work,parcel,intl:17;;;Birkeby;Greenland;31998;Denmark
+END:VCARD

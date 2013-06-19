@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Gang;Nejla
+FN:Nejla Gang
+TEL;TYPE=home,work:+4815045621
+EMAIL;TYPE=home:nejla.gang@provider.com
+X-JABBER;TYPE=work:nejla.gang@company.com
+X-JABBER;TYPE=home:nejla.gang@company.com
+END:VCARD

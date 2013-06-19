@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Papadakis;Dana;Yelysaveta,Sevinj
+FN:Dana Yelysaveta Sevinj Papadakis
+TEL;TYPE=work,pref:+135068924
+TEL;TYPE=voice:+11501474584448
+EMAIL;TYPE=work:dana.papadakis@provider.com
+EMAIL;TYPE=home,work:dana.papadakis@provider.com
+X-JABBER;TYPE=work:5292462990@social.com
+ADR;TYPE=home,work,postal:;;Boulevard Abigail Makayla Lebre 25;Béziers;;26684;Canada
+END:VCARD

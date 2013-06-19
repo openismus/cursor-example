@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Nahas;Gunel;Morena
+FN:Gunel Morena Nahas
+TEL;TYPE=home,work:062543007
+TEL;TYPE=work,voice:0580872179
+EMAIL;TYPE=home:gunel.nahas@provider.com
+X-JABBER:gunel.nahas@company.com
+X-JABBER;TYPE=home:gunel.nahas@provider.com
+ADR;TYPE=home,work,postal:;;Sugárút Aicha Abbasi 83;Alsó-Cserhátkereszt;;68011;Hungary
+END:VCARD

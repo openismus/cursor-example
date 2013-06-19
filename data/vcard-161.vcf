@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Laurent;Imogen
+FN:Imogen Laurent
+TEL;TYPE=home,voice:+61965824678
+EMAIL;TYPE=home,work:imogen.laurent@provider.com
+EMAIL:imogen.laurent@company.com
+ADR;TYPE=home,parcel,postal,intl:;;8th Windcombe Street;Strathhattan-on-sea;;98185;Australia
+END:VCARD

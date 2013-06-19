@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Jurić;Arianna
+FN:Arianna Jurić
+TEL;TYPE=pref,cell:045721759
+TEL;TYPE=home,work,voice:054494360
+X-JABBER;TYPE=home,work:arianna@juric.org
+ADR;TYPE=home,work:;;Aruzhan Mourtada Straße 114;Mühlstadt;;54051;Germany
+END:VCARD

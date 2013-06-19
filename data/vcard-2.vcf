@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kanaan;Violeta;Linn
+FN:Violeta Linn Kanaan
+TEL;TYPE=voice:020952024101
+TEL;TYPE=home,work:+497419245337
+EMAIL;TYPE=home:violeta.kanaan@provider.com
+X-JABBER;TYPE=work:99495960876@social.com
+X-JABBER;TYPE=home,work:violeta@kanaan.org
+END:VCARD

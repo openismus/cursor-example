@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ward;Ayauly
+FN:Ayauly Ward
+TEL;TYPE=home,voice:077450394
+EMAIL;TYPE=home,work:ayauly@ward.org
+X-JABBER;TYPE=work:ayauly.ward@provider.com
+X-JABBER:ayauly.ward@provider.com
+X-JABBER;TYPE=home:ayauly.ward@company.com
+END:VCARD

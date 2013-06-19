@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Harris;Leah
+FN:Leah Harris
+EMAIL;TYPE=home:leah.harris@provider.com
+X-JABBER:leah.harris@provider.com
+X-JABBER;TYPE=home:leah.harris@company.com
+END:VCARD

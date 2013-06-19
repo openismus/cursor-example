@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Dwivedi;Elizabete
+FN:Elizabete Dwivedi
+TEL;TYPE=home,voice:+5315863950
+X-JABBER;TYPE=work:3709504258@social.com
+X-JABBER;TYPE=work:elizabete.dwivedi@company.com
+ADR;TYPE=home,postal,intl:;;Bulevar Imogen Luna 24;Elorza;;61688;Cuba
+END:VCARD

@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Stoyanov;Jennifer
+FN:Jennifer Stoyanov
+TEL;TYPE=work,voice:014256111
+EMAIL;TYPE=work:jennifer@stoyanov.org
+END:VCARD

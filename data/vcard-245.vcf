@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kostov;Summer
+FN:Summer Kostov
+TEL:+3994035044
+TEL;TYPE=home:0333267664
+EMAIL;TYPE=home,work:summer.kostov@provider.com
+X-JABBER:7002214226@social.com
+END:VCARD

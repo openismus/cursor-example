@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Nueimat;Elsa
+FN:Elsa Nueimat
+TEL;TYPE=home,work:0721804350
+TEL;TYPE=work,pref,fax:+648668317193
+TEL;TYPE=home,work,pref:034408952
+EMAIL:elsa@nueimat.org
+X-JABBER;TYPE=home:elsa.nueimat@company.com
+X-JABBER:elsa.nueimat@provider.com
+X-JABBER;TYPE=home,work:38715972439@social.com
+END:VCARD

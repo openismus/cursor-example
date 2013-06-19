@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ung;Stefania
+FN:Stefania Ung
+TEL;TYPE=home,work,voice:+5718954580
+TEL;TYPE=home,voice,cell:+571324424618177
+EMAIL;TYPE=home,work:stefania.ung@company.com
+EMAIL:stefania@ung.org
+END:VCARD

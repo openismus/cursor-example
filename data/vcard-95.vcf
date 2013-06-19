@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:de Visser;Sofija
+FN:Sofija de Visser
+TEL;TYPE=home,voice:+29974889392
+X-JABBER:sofija.de.visser@provider.com
+X-JABBER:sofija.de.visser@company.com
+X-JABBER:sofija.de.visser@company.com
+ADR;TYPE=work,parcel:;;Yael Nyman Vej 21;Glamshavn;Greenland;87409;Denmark
+END:VCARD

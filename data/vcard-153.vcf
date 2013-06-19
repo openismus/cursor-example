@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Zoeng;Alicia
+FN:Alicia Zoeng
+TEL:055212980
+EMAIL;TYPE=home:alicia@zoeng.org
+EMAIL;TYPE=work:alicia.zoeng@company.com
+EMAIL;TYPE=work:alicia.zoeng@company.com
+X-JABBER;TYPE=home:14647851694@social.com
+ADR;TYPE=work,postal:;;Maya Isidora Ortíz Vei 6;Follhavn;;29898;Norway
+END:VCARD

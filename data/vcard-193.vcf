@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Mohammad;Irati
+FN:Irati Mohammad
+TEL;TYPE=work,pref:+4889231109
+TEL;TYPE=work,voice:0771616273
+EMAIL;TYPE=home,work:irati.mohammad@company.com
+ADR;TYPE=home,parcel:;;Bulwar Zawiercie 7;Niemcza;;58747;Poland
+END:VCARD

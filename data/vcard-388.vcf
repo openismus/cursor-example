@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Joshi;Madison;Nare
+FN:Madison Nare Joshi
+EMAIL;TYPE=work:madison.joshi@company.com
+X-JABBER;TYPE=home,work:5260514824@social.com
+X-JABBER;TYPE=home,work:madison.joshi@company.com
+ADR;TYPE=home,postal:;;Út Axelle Desai 82;Egyházasdob;;32091;Hungary
+END:VCARD

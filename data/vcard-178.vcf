@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kovačić;Norah
+FN:Norah Kovačić
+TEL;TYPE=work,voice:080148631
+EMAIL:norah.kovacic@company.com
+EMAIL:norah.kovacic@company.com
+X-JABBER;TYPE=work:norah.kovacic@provider.com
+END:VCARD

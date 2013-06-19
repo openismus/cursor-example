@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Gori;Linnea
+FN:Linnea Gori
+TEL;TYPE=work,voice:06172327634
+EMAIL:linnea.gori@company.com
+X-JABBER;TYPE=home:linnea.gori@company.com
+X-JABBER;TYPE=work:3557867791@social.com
+END:VCARD

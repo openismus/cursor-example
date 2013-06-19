@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Pino;Magdalena
+FN:Magdalena Pino
+TEL;TYPE=work,cell:053950891
+EMAIL;TYPE=home:magdalena.pino@company.com
+EMAIL;TYPE=home:magdalena.pino@provider.com
+END:VCARD

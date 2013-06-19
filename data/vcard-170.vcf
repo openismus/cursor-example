@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Schuster;Ellie
+FN:Ellie Schuster
+TEL;TYPE=cell:068178540
+TEL;TYPE=home,work,cell:039880500
+EMAIL;TYPE=work:ellie.schuster@company.com
+END:VCARD

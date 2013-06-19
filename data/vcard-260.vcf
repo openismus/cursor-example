@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Dimitriadis;Elise
+FN:Elise Dimitriadis
+EMAIL;TYPE=home:elise.dimitriadis@provider.com
+X-JABBER;TYPE=work:92019182633@social.com
+X-JABBER:elise@dimitriadis.org
+END:VCARD

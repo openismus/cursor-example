@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kovač;Roni
+FN:Roni Kovač
+TEL;TYPE=home,work,voice:0424456575
+X-JABBER;TYPE=home:roni.kovac@provider.com
+X-JABBER;TYPE=home,work:roni.kovac@provider.com
+ADR;TYPE=home,work:;;Droga Sopot 39;Hel;;46594;Poland
+ADR;TYPE=home,parcel:;;Droga Sopot 39;Warszawa;;43397;Poland
+END:VCARD

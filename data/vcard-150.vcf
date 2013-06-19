@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Mariani;Najaaraq
+FN:Najaaraq Mariani
+TEL;TYPE=home,work,voice:+4767143465
+X-JABBER;TYPE=home:najaaraq.mariani@company.com
+X-JABBER;TYPE=home:najaaraq.mariani@provider.com
+X-JABBER;TYPE=work:najaaraq.mariani@company.com
+END:VCARD

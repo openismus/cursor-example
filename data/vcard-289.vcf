@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:de Vries;Canan
+FN:Canan de Vries
+TEL;TYPE=home,cell:+32798985248
+TEL;TYPE=home,work:+32312022011014
+TEL;TYPE=home,work:+3284873086300
+EMAIL:canan@de-vries.org
+ADR:;;Maria Blanc Weg 52;Tilmaar;;98410;Belgium
+END:VCARD

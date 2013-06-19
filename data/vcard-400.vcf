@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Sinha;Emma
+FN:Emma Sinha
+TEL;TYPE=home,cell:041694078
+EMAIL:emma.sinha@company.com
+ADR;TYPE=parcel,intl:825;;;Lancy;;16653;Switzerland
+END:VCARD

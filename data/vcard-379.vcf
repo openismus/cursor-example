@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Farías;Mara
+FN:Mara Farías
+TEL;TYPE=home,work:+4870378255
+X-JABBER;TYPE=work:mara.farias@provider.com
+X-JABBER:mara.farias@company.com
+X-JABBER;TYPE=work:mara@farias.org
+ADR;TYPE=home,work,pref,parcel:;;Droga Warszawa 2;Miasto Wielkie;;48577;Poland
+END:VCARD

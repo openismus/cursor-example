@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Horák;Yunseo
+FN:Yunseo Horák
+TEL;TYPE=home,work,fax,cell:074184487
+X-JABBER;TYPE=home,work:yunseo.horak@company.com
+X-JABBER;TYPE=home:3174983747@social.com
+ADR:;;Rue Lyon 17;Bergerac;;54111;France
+END:VCARD

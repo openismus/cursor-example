@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Parodi;Ida
+FN:Ida Parodi
+TEL;TYPE=work,voice:+3996534920
+TEL;TYPE=work,voice:070479493
+EMAIL;TYPE=home:ida.parodi@provider.com
+ADR;TYPE=home:;;Via Sevda Vasiliev 140;Sassovento al Mincio;;57716;Italy
+END:VCARD

@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Jansen;Laia;Luciana
+FN:Laia Luciana Jansen
+TEL;TYPE=home,voice:+137894098432
+X-JABBER;TYPE=home:laia.jansen@provider.com
+ADR;TYPE=work,intl:;;42nd Daford Street;Mesdstow;;51715;Canada
+END:VCARD

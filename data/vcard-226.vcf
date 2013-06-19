@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Schulz;Molly
+FN:Molly Schulz
+TEL;TYPE=voice:+48500866118
+X-JABBER;TYPE=home,work:molly.schulz@company.com
+END:VCARD

@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Gallo;Margret
+FN:Margret Gallo
+TEL;TYPE=home,work,voice:0289561747
+TEL;TYPE=work,voice:094347317
+EMAIL;TYPE=work:margret.gallo@provider.com
+EMAIL;TYPE=home:margret.gallo@company.com
+END:VCARD

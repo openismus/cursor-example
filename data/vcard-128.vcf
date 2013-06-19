@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Horvat;Ebba
+FN:Ebba Horvat
+TEL;TYPE=home,cell:055978961
+TEL;TYPE=home,work,pref,voice:+56367269481
+EMAIL:ebba@horvat.org
+X-JABBER;TYPE=home:913943988382@social.com
+ADR;TYPE=home,work,postal:;;Carretera Neiva 49;Potosi;;49330;Easter Island
+END:VCARD

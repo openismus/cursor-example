@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Semyonov;Kristina
+FN:Kristina Semyonov
+TEL;TYPE=pref,cell:033628294
+EMAIL;TYPE=home:kristina.semyonov@company.com
+EMAIL;TYPE=home:kristina.semyonov@company.com
+X-JABBER;TYPE=work:8683998009@social.com
+X-JABBER:8822243792@social.com
+ADR;TYPE=work,pref,postal:;;Tala Saar Elizabeth Remas Lai Straße 3;Neu Vorhorst;;58341;Germany
+END:VCARD

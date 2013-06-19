@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ferhatović;Viktória;Axelle
+FN:Viktória Axelle Ferhatović
+TEL;TYPE=home,work:+5572478748
+X-JABBER;TYPE=home:viktoria.ferhatovic@company.com
+X-JABBER;TYPE=home:viktoria.ferhatovic@provider.com
+ADR;TYPE=home:;;Estrada Siiri Lamija Baker 6;Manoa;;86934;Brazil
+END:VCARD

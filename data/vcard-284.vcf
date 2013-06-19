@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Božič;Agnes
+FN:Agnes Božič
+TEL;TYPE=home,pref,voice:+51455443880
+TEL:+513713383074
+X-JABBER:5013479325@social.com
+X-JABBER;TYPE=work:agnes.bozic@provider.com
+ADR;TYPE=home,postal:;;Bulevar Clara Maksimović 51;San Lorenzo;;27782;Peru
+END:VCARD

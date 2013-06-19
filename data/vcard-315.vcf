@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Rantanen;Arushi
+FN:Arushi Rantanen
+TEL;TYPE=work,pref,cell:081903447
+TEL;TYPE=home,work,fax:+509938577703
+EMAIL;TYPE=home,work:arushi.rantanen@company.com
+EMAIL:arushi.rantanen@company.com
+ADR;TYPE=work,dom,intl:;;Rue Malika Luó 113;Béziers;;41243;Haiti
+END:VCARD

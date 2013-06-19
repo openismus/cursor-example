@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Martini;Angeliki
+FN:Angeliki Martini
+TEL;TYPE=pref,voice,video,fax:0372392064
+EMAIL;TYPE=home,work:angeliki.martini@company.com
+END:VCARD

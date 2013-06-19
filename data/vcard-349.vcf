@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Suárez;Taylor
+FN:Taylor Suárez
+TEL:+5668428916
+TEL;TYPE=work,pref,voice:+56685436470030
+EMAIL;TYPE=work:taylor@suarez.org
+X-JABBER:taylor.suarez@provider.com
+X-JABBER;TYPE=home,work:taylor.suarez@provider.com
+END:VCARD

@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Doyle;Sobia
+FN:Sobia Doyle
+TEL;TYPE=home:+4431622628
+TEL;TYPE=home,work,cell:+4477367542
+EMAIL;TYPE=home:sobia.doyle@company.com
+EMAIL;TYPE=work:sobia.doyle@company.com
+X-JABBER;TYPE=work:8696223745@social.com
+END:VCARD

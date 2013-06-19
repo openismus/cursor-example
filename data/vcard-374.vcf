@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Pinna;Barbora
+FN:Barbora Pinna
+TEL;TYPE=home,work,pref,voice:+47837529928717
+TEL;TYPE=home,work,voice:01019380773
+ADR;TYPE=parcel,intl:;;Vedland Vei 39;Steinkjer;;97970;Norway
+END:VCARD

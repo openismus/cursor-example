@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Paterson;Emma
+FN:Emma Paterson
+TEL;TYPE=work,voice,video:+672520153706
+TEL;TYPE=home,work,pref,cell:+672490852854
+X-JABBER;TYPE=home:emma.paterson@provider.com
+ADR;TYPE=work,parcel:67;;;Cheedwich;;87231;Australia
+END:VCARD

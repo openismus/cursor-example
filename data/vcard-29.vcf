@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Halili;Juri;Omer,Kíra
+FN:Juri Omer Kíra Halili
+TEL;TYPE=home,work:030698386
+EMAIL;TYPE=home:juri@halili.org
+EMAIL;TYPE=home:juri@halili.org
+X-JABBER;TYPE=work:2235543075@social.com
+X-JABBER:juri.halili@company.com
+ADR;TYPE=work,pref,dom:;;Solsø Vej 37;Hjortslunde;Faroe Islands;57893;Denmark
+END:VCARD

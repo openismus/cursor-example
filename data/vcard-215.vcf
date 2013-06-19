@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Al-Zubaidi;Carol
+FN:Carol Al-Zubaidi
+TEL;TYPE=voice,cell:011172463
+TEL;TYPE=video:010202154
+X-JABBER;TYPE=home:carol.al-zubaidi@company.com
+END:VCARD

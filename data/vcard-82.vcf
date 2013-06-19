@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Russo;Mariami
+FN:Mariami Russo
+TEL;TYPE=voice:010885502
+EMAIL:mariami.russo@provider.com
+EMAIL;TYPE=home:mariami.russo@company.com
+X-JABBER;TYPE=home,work:mariami.russo@provider.com
+X-JABBER;TYPE=home,work:mariami.russo@company.com
+END:VCARD

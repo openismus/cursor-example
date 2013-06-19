@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Johansen;Emilie
+FN:Emilie Johansen
+TEL;TYPE=home,work,voice:+168495664026
+TEL;TYPE=voice:1450747283666
+EMAIL:emilie.johansen@company.com
+END:VCARD

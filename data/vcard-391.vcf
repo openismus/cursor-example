@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Carroca;Haeun
+FN:Haeun Carroca
+TEL;TYPE=home,work,voice,cell:+5634177281
+TEL;TYPE=work,voice:080010143
+EMAIL:haeun.carroca@company.com
+X-JABBER;TYPE=home:22574731936@social.com
+X-JABBER;TYPE=work:9034361123@social.com
+X-JABBER:8556254253@social.com
+END:VCARD

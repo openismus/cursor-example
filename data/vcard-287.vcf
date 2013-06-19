@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Mitchell;Patricia;Smiltė,Yelizaveta
+FN:Patricia Smiltė Yelizaveta Mitchell
+TEL;TYPE=home,work,voice:0819072102
+EMAIL;TYPE=home,work:patricia.mitchell@company.com
+EMAIL:patricia.mitchell@company.com
+X-JABBER;TYPE=work:patricia.mitchell@provider.com
+END:VCARD

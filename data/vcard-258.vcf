@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Zain;Isobella
+FN:Isobella Zain
+TEL;TYPE=work:+47768013470506
+TEL;TYPE=home,work:047612503
+EMAIL;TYPE=home,work:isobella.zain@company.com
+ADR;TYPE=home:;;Hannah Zaytsev Vei 83;Lundrud;;75045;Norway
+END:VCARD

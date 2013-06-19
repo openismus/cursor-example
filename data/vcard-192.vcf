@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Visscher;Jazmín
+FN:Jazmín Visscher
+TEL;TYPE=home,work,video:07796724209778
+EMAIL;TYPE=work:jazmin.visscher@company.com
+EMAIL:jazmin@visscher.org
+X-JABBER;TYPE=home,work:4957963868@social.com
+X-JABBER:jazmin.visscher@company.com
+END:VCARD

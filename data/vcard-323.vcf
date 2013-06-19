@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Galli;Smiltė
+FN:Smiltė Galli
+TEL;TYPE=home,pref,voice:0113326896
+TEL;TYPE=work,voice:+397083604616
+EMAIL;TYPE=home:smilte.galli@company.com
+ADR;TYPE=home,intl:21;;;Nuoro;;74387;Italy
+END:VCARD

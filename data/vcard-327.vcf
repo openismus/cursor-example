@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ilić;Emilija
+FN:Emilija Ilić
+TEL;TYPE=home,work,voice,cell:+4522618213
+X-JABBER:emilija.ilic@company.com
+X-JABBER;TYPE=work:1313348407@social.com
+ADR;TYPE=parcel,dom:;;Eliška Al-Qaisi Vej 2;Blokhavn;Greenland;93943;Denmark
+END:VCARD

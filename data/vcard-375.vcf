@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kuznetsov;Leonie
+FN:Leonie Kuznetsov
+TEL;TYPE=home,voice:+5724623085609
+TEL;TYPE=home,work,voice:+576798289430
+EMAIL:leonie.kuznetsov@company.com
+X-JABBER;TYPE=work:9507038767@social.com
+X-JABBER;TYPE=home,work:leonie.kuznetsov@provider.com
+ADR;TYPE=postal:;;Carril Freyja Ayala 51;Mariano;;93826;Colombia
+END:VCARD

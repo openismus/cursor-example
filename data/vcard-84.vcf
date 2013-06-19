@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hovhannisyan;Marie
+FN:Marie Hovhannisyan
+TEL;TYPE=home,cell:+4896136418
+EMAIL;TYPE=home,work:marie.hovhannisyan@provider.com
+ADR;TYPE=dom,intl:;;Tor Megan Adrei 41;Sulinowo Stare;;20089;Poland
+END:VCARD

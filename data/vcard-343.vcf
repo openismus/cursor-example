@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Sy;Jana
+FN:Jana Sy
+TEL;TYPE=home,work,voice:+599948080220
+TEL;TYPE=home,work,voice,cell:+599967347399219
+TEL;TYPE=home,work,voice,cell:+599917989768
+EMAIL:jana.sy@company.com
+EMAIL;TYPE=home:jana.sy@company.com
+EMAIL;TYPE=home:jana.sy@company.com
+END:VCARD

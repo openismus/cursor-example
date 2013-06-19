@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hessen;Chloe
+FN:Chloe Hessen
+TEL;TYPE=home,cell:+41278045987
+EMAIL:chloe@hessen.org
+EMAIL:chloe.hessen@company.com
+ADR;TYPE=home,work,pref:;;Meryem Eriksen Straße 3;Schwyz;;93276;Switzerland
+ADR;TYPE=home,work,parcel,postal:;;Meryem Eriksen Straße 3;Schlieren;;12717;Switzerland
+END:VCARD

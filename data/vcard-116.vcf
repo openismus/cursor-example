@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Mulders;Rakel
+FN:Rakel Mulders
+TEL;TYPE=work,voice,cell:+4394798465
+X-JABBER:4278311577@social.com
+X-JABBER:rakel.mulders@provider.com
+ADR;TYPE=home,work:;;Agnes Pavlović Straße 49;Spital;;88426;Austria
+END:VCARD

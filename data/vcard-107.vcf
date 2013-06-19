@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Carraro;Imogen;Giulia
+FN:Imogen Giulia Carraro
+TEL;TYPE=home,work:027788717
+TEL;TYPE=home,voice,cell:08151203036
+EMAIL;TYPE=home,work:imogen.carraro@company.com
+EMAIL;TYPE=work:imogen.carraro@provider.com
+X-JABBER;TYPE=home,work:imogen.carraro@provider.com
+END:VCARD

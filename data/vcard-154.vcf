@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Nakamura;Sahra
+FN:Sahra Nakamura
+TEL;TYPE=work,voice,cell:+5779656412
+TEL;TYPE=home,voice:+5768219479
+EMAIL;TYPE=work:sahra.nakamura@company.com
+END:VCARD

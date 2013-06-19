@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Basso;Reem
+FN:Reem Basso
+TEL;TYPE=home,work:+3290584764
+TEL;TYPE=home,voice:+32571318166
+EMAIL;TYPE=work:reem.basso@provider.com
+END:VCARD

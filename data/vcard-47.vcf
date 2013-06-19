@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Iyer;Matilde;Rihanna,Vasiliki
+FN:Matilde Rihanna Vasiliki Iyer
+TEL;TYPE=work,pref:03598197305
+TEL;TYPE=home,work:099048176299
+EMAIL;TYPE=home,work:matilde.iyer@company.com
+EMAIL;TYPE=home,work:matilde@iyer.org
+X-JABBER;TYPE=work:matilde.iyer@company.com
+END:VCARD

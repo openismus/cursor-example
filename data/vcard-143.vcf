@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Lei;Sofia
+FN:Sofia Lei
+X-JABBER;TYPE=home:sofia.lei@company.com
+X-JABBER;TYPE=work:683990812882@social.com
+X-JABBER:81492944721@social.com
+ADR;TYPE=home:;;Carretera Amelia Margret Ellie Uhm 47;Zaragoza;;10877;Honduras
+END:VCARD

@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Moser;Catalina
+FN:Catalina Moser
+TEL;TYPE=home,work,voice:098041434877226
+X-JABBER;TYPE=home,work:catalina.moser@company.com
+X-JABBER;TYPE=home:catalina.moser@company.com
+END:VCARD

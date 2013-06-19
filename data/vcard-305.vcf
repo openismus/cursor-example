@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Al-Zahawi;Jasmine;Léa,Maitha
+FN:Jasmine Léa Maitha Al-Zahawi
+TEL;TYPE=home,work,voice:0906525300
+EMAIL;TYPE=work:jasmine.al-zahawi@company.com
+X-JABBER;TYPE=work:2260134735@social.com
+X-JABBER;TYPE=work:jasmine.al-zahawi@provider.com
+X-JABBER:6843186028@social.com
+ADR;TYPE=home,work,postal:853;;;Bad Erlangen;;29711;Germany
+END:VCARD

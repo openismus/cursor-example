@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Novaković;Chana
+FN:Chana Novaković
+TEL;TYPE=work,pref:07063809452
+EMAIL;TYPE=home:chana.novakovic@company.com
+EMAIL:chana.novakovic@company.com
+X-JABBER;TYPE=work:chana.novakovic@company.com
+END:VCARD

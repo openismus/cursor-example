@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Nayak;Bayarmaa
+FN:Bayarmaa Nayak
+TEL;TYPE=work,pref,video:+48970950212
+EMAIL:bayarmaa.nayak@company.com
+X-JABBER:bayarmaa.nayak@company.com
+ADR;TYPE=home,work,dom:604;;;Biały Lubliniec;;84623;Poland
+END:VCARD

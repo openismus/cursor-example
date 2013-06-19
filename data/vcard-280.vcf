@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ogawa;Farida
+FN:Farida Ogawa
+TEL;TYPE=home,cell:+58870715152
+TEL;TYPE=home,voice:0562750970
+EMAIL:farida.ogawa@company.com
+X-JABBER;TYPE=work:81954373403@social.com
+X-JABBER:farida.ogawa@provider.com
+END:VCARD

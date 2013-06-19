@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Vincent;Viola
+FN:Viola Vincent
+TEL;TYPE=home,voice:15950919508
+TEL:114990531
+EMAIL:viola@vincent.org
+EMAIL;TYPE=home:viola@vincent.org
+ADR:;;Rue Yui Suzuki 45;Lisieux;;19668;Canada
+ADR;TYPE=intl:;;Rue Yui Suzuki 45;Angoulème;;44399;Canada
+END:VCARD

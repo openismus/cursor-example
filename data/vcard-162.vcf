@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Bertrand;Nahia
+FN:Nahia Bertrand
+TEL;TYPE=work:+521050149697
+EMAIL:nahia.bertrand@company.com
+ADR;TYPE=parcel,postal:;;Carretera Yua Sabban 12;El Banco;;57805;Mexico
+END:VCARD

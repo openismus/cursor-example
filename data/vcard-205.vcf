@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Boer;Zeinab
+FN:Zeinab Boer
+TEL;TYPE=home:01566270382
+TEL;TYPE=home,work,voice:0220950449
+TEL;TYPE=home,voice,cell:030239218
+ADR;TYPE=home,work,parcel:;;41st Milica Jilani Street;Dunside Heath;;94478;United States
+END:VCARD

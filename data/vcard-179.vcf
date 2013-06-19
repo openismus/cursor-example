@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ivanov;Rania
+FN:Rania Ivanov
+TEL;TYPE=work,voice,cell:098540168
+TEL;TYPE=home,work,pref:0704614765
+TEL;TYPE=home,pref:086866289
+EMAIL:rania.ivanov@company.com
+END:VCARD

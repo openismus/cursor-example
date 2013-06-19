@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Chea;Florencia
+FN:Florencia Chea
+TEL;TYPE=home,voice:0617730002
+TEL;TYPE=work,cell:050153357
+EMAIL;TYPE=home:florencia.chea@provider.com
+EMAIL:florencia@chea.org
+ADR;TYPE=home:;;Carril Yacuiba 33;Mendoza;;41995;Spain
+END:VCARD

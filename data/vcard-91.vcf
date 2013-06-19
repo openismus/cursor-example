@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Veneto;Anette
+FN:Anette Veneto
+TEL;TYPE=home,voice,cell:0150656600
+X-JABBER;TYPE=home,work:93989690780@social.com
+X-JABBER;TYPE=work:2841883488@social.com
+X-JABBER:anette.veneto@company.com
+END:VCARD

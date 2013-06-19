@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Grange;Elen
+FN:Elen Grange
+TEL;TYPE=cell:0972415672
+EMAIL;TYPE=work:elen.grange@provider.com
+EMAIL;TYPE=home,work:elen.grange@provider.com
+X-JABBER;TYPE=home,work:4196112379@social.com
+ADR;TYPE=home,intl:47;;;Dimberg;;97257;Sweden
+END:VCARD

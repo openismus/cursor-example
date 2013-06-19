@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Nielsen;Valeriya
+FN:Valeriya Nielsen
+TEL;TYPE=cell:+57182270406
+X-JABBER;TYPE=work:41474067237@social.com
+X-JABBER;TYPE=work:valeriya.nielsen@provider.com
+ADR;TYPE=work,parcel,dom,intl:;;Carretera Cuenca 12;Puerto Ayacucho;;19519;Colombia
+END:VCARD

@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Cooper;Adéla
+FN:Adéla Cooper
+TEL;TYPE=home,cell:+52973958146
+TEL;TYPE=work,voice:+52655554364723
+TEL;TYPE=home:056663832
+EMAIL;TYPE=home:adela.cooper@company.com
+EMAIL;TYPE=home:adela.cooper@company.com
+ADR;TYPE=dom:;;Carretera Carolina Lai 9;Puerto Chala;;11160;Mexico
+END:VCARD

@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Garcia;Sakineh
+FN:Sakineh Garcia
+TEL;TYPE=home,pref,voice,cell:076976296
+TEL:061445889
+TEL;TYPE=work,pref:+59993334525952
+EMAIL;TYPE=home:sakineh@garcia.org
+X-JABBER;TYPE=home:sakineh.garcia@company.com
+END:VCARD

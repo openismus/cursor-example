@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hannah;Aimee
+FN:Aimee Hannah
+TEL;TYPE=work,voice:+509712648259
+TEL:0628170623
+EMAIL;TYPE=work:aimee.hannah@provider.com
+X-JABBER;TYPE=home,work:1498924938@social.com
+X-JABBER;TYPE=home,work:aimee.hannah@company.com
+END:VCARD

@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kofler;Linnea
+FN:Linnea Kofler
+TEL;TYPE=home,work:+5428011377
+EMAIL;TYPE=home:linnea@kofler.org
+EMAIL;TYPE=home,work:linnea.kofler@company.com
+X-JABBER;TYPE=home:linnea.kofler@provider.com
+END:VCARD

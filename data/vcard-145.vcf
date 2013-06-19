@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Salonen;Leyla
+FN:Leyla Salonen
+TEL:+49749415146
+EMAIL:leyla.salonen@provider.com
+EMAIL:leyla.salonen@company.com
+X-JABBER;TYPE=home,work:leyla.salonen@provider.com
+X-JABBER:3502014426@social.com
+END:VCARD

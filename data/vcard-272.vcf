@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Gómez;Elin;Victoria
+FN:Elin Victoria Gómez
+TEL;TYPE=work,pref,voice:+3672781067763
+EMAIL:elin.gomez@provider.com
+EMAIL;TYPE=home,work:elin.gomez@company.com
+X-JABBER;TYPE=home:elin.gomez@provider.com
+X-JABBER;TYPE=work:7716637444@social.com
+ADR;TYPE=home,work,parcel:;;Út Valeriya Koo 32;Ajka;;41065;Hungary
+END:VCARD

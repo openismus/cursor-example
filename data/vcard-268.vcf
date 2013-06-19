@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Pavlović;Yunseo
+FN:Yunseo Pavlović
+TEL;TYPE=voice,cell:05310698458
+EMAIL:yunseo.pavlovic@provider.com
+EMAIL;TYPE=work:yunseo@pavlovic.org
+ADR;TYPE=work,postal,intl:;;Carretera Derya Hasan 52;Guayana;;38341;Easter Island
+END:VCARD

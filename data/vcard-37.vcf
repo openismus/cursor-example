@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Reyes;Chloe
+FN:Chloe Reyes
+EMAIL;TYPE=home:chloe.reyes@company.com
+X-JABBER:2812378396@social.com
+X-JABBER:chloe.reyes@company.com
+END:VCARD

@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Aguilera;Molly;Arianna
+FN:Molly Arianna Aguilera
+TEL;TYPE=home,pref:0898026945
+X-JABBER;TYPE=work:4993627038@social.com
+X-JABBER;TYPE=home,work:molly.aguilera@company.com
+X-JABBER;TYPE=work:3223139931@social.com
+ADR;TYPE=work,postal:;;Carretera Cali 1;Merida;Aragon;65187;Spain
+END:VCARD

@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Rozman;Kawthar;Ana
+FN:Kawthar Ana Rozman
+EMAIL;TYPE=home,work:kawthar@rozman.org
+X-JABBER;TYPE=home,work:kawthar.rozman@provider.com
+X-JABBER:kawthar.rozman@provider.com
+ADR;TYPE=home,postal,intl:;;Stefania Ivanov Väg 43;Säddhus;;31896;Sweden
+END:VCARD

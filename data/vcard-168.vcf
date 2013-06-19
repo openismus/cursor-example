@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Nilsen;Elen
+FN:Elen Nilsen
+TEL;TYPE=voice,cell:17058469896
+TEL;TYPE=voice,cell:+13478008555
+X-JABBER;TYPE=home,work:elen@nilsen.org
+END:VCARD

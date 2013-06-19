@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Lehtinen;Dilay
+FN:Dilay Lehtinen
+TEL;TYPE=home:+32850076582564
+EMAIL;TYPE=home:dilay.lehtinen@provider.com
+X-JABBER;TYPE=work:dilay.lehtinen@provider.com
+ADR;TYPE=home:;;Tamar Chamoun Laan 25;Oost Leeuwerdorp;;38674;Belgium
+END:VCARD

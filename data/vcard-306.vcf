@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Cheung;Snezana
+FN:Snezana Cheung
+TEL;TYPE=home,voice,cell:+5432040717
+EMAIL;TYPE=home,work:snezana.cheung@company.com
+X-JABBER:snezana.cheung@company.com
+X-JABBER:snezana.cheung@provider.com
+ADR:;;Carretera Sofía Visintin 32;Uyuni;;65264;Argentina
+END:VCARD

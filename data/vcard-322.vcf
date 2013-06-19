@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Wiśniewski;Adi
+FN:Adi Wiśniewski
+TEL;TYPE=voice:+134560577345
+TEL;TYPE=work,pref,voice,fax:150480894
+EMAIL:adi.wisniewski@company.com
+X-JABBER;TYPE=work:adi.wisniewski@company.com
+ADR;TYPE=home,work,dom,intl:;;4th Yarin Marić Boulevard;Trehaven;South Georgia;86885;United Kingdom
+END:VCARD

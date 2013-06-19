@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Mandić;Fatma
+FN:Fatma Mandić
+TEL;TYPE=work,voice:0856452191
+EMAIL;TYPE=home,work:fatma.mandic@provider.com
+END:VCARD

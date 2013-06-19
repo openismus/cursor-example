@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Acuña;Julieta
+FN:Julieta Acuña
+TEL;TYPE=voice,video:09984128482
+EMAIL:julieta.acuna@provider.com
+ADR;TYPE=postal:;;Dorothy Graham Straße 4;Solothurn;;11900;Switzerland
+END:VCARD

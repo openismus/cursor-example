@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kotnik;Yelysaveta
+FN:Yelysaveta Kotnik
+TEL:051530402
+EMAIL:yelysaveta.kotnik@provider.com
+EMAIL;TYPE=home,work:yelysaveta.kotnik@provider.com
+ADR;TYPE=work,postal,intl:;;Bulevar Florencia Laia Guevarra 9;San Carlos;;75504;Nicaragua
+END:VCARD

@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Smirnov;Shayma
+FN:Shayma Smirnov
+TEL;TYPE=home,work,pref:+59332451250
+TEL;TYPE=home:+59362413728781
+EMAIL;TYPE=work:shayma.smirnov@provider.com
+EMAIL;TYPE=home:shayma.smirnov@company.com
+X-JABBER:shayma.smirnov@company.com
+X-JABBER:1587944485@social.com
+END:VCARD

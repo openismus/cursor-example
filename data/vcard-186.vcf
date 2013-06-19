@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Dąbrowski;Lea
+FN:Lea Dąbrowski
+TEL;TYPE=home,cell:+54378805897
+TEL;TYPE=home,work,voice:+54107779801
+EMAIL;TYPE=home:lea.dabrowski@company.com
+EMAIL;TYPE=work:lea.dabrowski@company.com
+EMAIL;TYPE=work:lea.dabrowski@company.com
+END:VCARD

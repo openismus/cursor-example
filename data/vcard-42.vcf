@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Mlakar;Malk
+FN:Malk Mlakar
+EMAIL;TYPE=home,work:malk.mlakar@company.com
+EMAIL;TYPE=home:malk.mlakar@company.com
+EMAIL;TYPE=work:malk.mlakar@provider.com
+X-JABBER;TYPE=work:malk.mlakar@company.com
+X-JABBER;TYPE=work:malk.mlakar@provider.com
+X-JABBER;TYPE=home:malk.mlakar@provider.com
+ADR:;;Estrada Sakeena Virtanen 6;San Lorenzo;;58019;Guinea-Bissau
+END:VCARD

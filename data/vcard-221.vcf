@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Nyman;Alondra
+FN:Alondra Nyman
+TEL;TYPE=work,pref,voice,cell:05770309563
+EMAIL;TYPE=home:alondra.nyman@provider.com
+ADR;TYPE=home,work,postal:;;Yol Isabel Castro 28;Sarıçamyurt;Cyprus;86771;Turkey
+END:VCARD

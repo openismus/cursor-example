@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Demello;Juri
+FN:Juri Demello
+TEL:+4812360829
+TEL;TYPE=home,voice:+485816988105
+EMAIL:juri.demello@provider.com
+X-JABBER;TYPE=home:juri@demello.org
+X-JABBER:593729611364@social.com
+ADR;TYPE=home,intl:25;;;Nowa Bobowa;;31208;Poland
+END:VCARD

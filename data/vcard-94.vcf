@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Bhatt;Ingri
+FN:Ingri Bhatt
+TEL;TYPE=home,work,pref,video,fax,cell:01349008527
+EMAIL;TYPE=home:ingri.bhatt@company.com
+X-JABBER;TYPE=home,work:1524726446@social.com
+X-JABBER;TYPE=home:ingri.bhatt@provider.com
+END:VCARD

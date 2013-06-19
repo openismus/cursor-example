@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Dương;Hana
+FN:Hana Dương
+TEL;TYPE=pref,voice:072925259
+EMAIL;TYPE=work:hana.duong@company.com
+ADR;TYPE=home,work,postal:61504;;;Høje Humlehøj;Faroe Islands;32608;Denmark
+END:VCARD

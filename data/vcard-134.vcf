@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Petrović;Marie
+FN:Marie Petrović
+TEL;TYPE=home,work,cell:182204512
+TEL;TYPE=home,work,voice:+141114847
+EMAIL;TYPE=home,work:marie.petrovic@provider.com
+EMAIL;TYPE=work:marie.petrovic@company.com
+X-JABBER;TYPE=home,work:9977105740@social.com
+X-JABBER;TYPE=work:661581521600@social.com
+END:VCARD

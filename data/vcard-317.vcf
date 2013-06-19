@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Toro;Ljubica
+FN:Ljubica Toro
+TEL;TYPE=home,work:+18258913136651
+TEL;TYPE=home,voice:+19754494145
+TEL;TYPE=work,voice:+117689230780
+EMAIL;TYPE=home,work:ljubica.toro@provider.com
+X-JABBER;TYPE=home,work:6883660092@social.com
+END:VCARD

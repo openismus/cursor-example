@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Watson;Patricia
+FN:Patricia Watson
+TEL;TYPE=work,voice:072741188054
+TEL;TYPE=home,pref,voice,cell:+5643456879043
+TEL;TYPE=work:+564266648592
+ADR:;;Carril Emilía Lopes 59;San Carlos;;75338;Easter Island
+END:VCARD

@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Seo,Suh;Greta;Holly
+FN:Greta Holly Seo,Suh
+TEL;TYPE=work,voice:017921529
+TEL;TYPE=home,pref,cell:014725556
+EMAIL;TYPE=work:greta.seosuh@company.com
+EMAIL;TYPE=home,work:greta.seosuh@company.com
+ADR;TYPE=home:;;Yol Kars 27;Sarıpazar;;24839;Uzbekistan
+END:VCARD

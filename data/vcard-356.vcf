@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Salinas;Lamar
+FN:Lamar Salinas
+TEL;TYPE=home:040494424
+TEL;TYPE=work:0405390194
+EMAIL;TYPE=work:lamar@salinas.org
+ADR;TYPE=work,pref:;;Út Zala Mercado 7;Pusztakürt;;80034;Hungary
+END:VCARD

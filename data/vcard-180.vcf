@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Saba;Eda
+FN:Eda Saba
+TEL;TYPE=work:0147274171
+EMAIL;TYPE=home,work:eda.saba@company.com
+ADR;TYPE=work,parcel:;;134th Elizabete Reid Lane;Bonhaven;Anguilla;84455;United Kingdom
+END:VCARD

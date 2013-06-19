@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kvaratskhelia;Fiona
+FN:Fiona Kvaratskhelia
+TEL;TYPE=work:04629851973
+EMAIL;TYPE=home,work:fiona.kvaratskhelia@provider.com
+ADR;TYPE=work:;;Estrada Natálie Caruso 71;Fortin Esteros;;80450;Portugal
+END:VCARD

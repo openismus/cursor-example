@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Vianello;Seoyun
+FN:Seoyun Vianello
+TEL;TYPE=home,work:054186348
+EMAIL;TYPE=home,work:seoyun.vianello@company.com
+X-JABBER;TYPE=home:7372260200@social.com
+ADR;TYPE=work,parcel,dom,intl:;;Yol Büyükyurt 31;Doğutepe;;91457;Turkey
+END:VCARD

@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Pace;Camila
+FN:Camila Pace
+TEL;TYPE=voice:+52415696054
+X-JABBER;TYPE=home:camila.pace@company.com
+X-JABBER:9087853810@social.com
+ADR;TYPE=home,pref:;;Carretera Iquitos 17;Iquitos;;50321;Mexico
+END:VCARD

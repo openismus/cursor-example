@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Gallo;Ma*soumeh
+FN:Ma*soumeh Gallo
+TEL;TYPE=home,work,voice:+46898613471
+TEL;TYPE=home,work:+4699898062793
+EMAIL;TYPE=work:masoumeh.gallo@provider.com
+X-JABBER;TYPE=work:masoumeh.gallo@company.com
+ADR;TYPE=home,work:;;Isabelle Liem Väg 34;Glynbukten;;92900;Sweden
+END:VCARD

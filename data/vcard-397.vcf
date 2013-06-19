@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Chun;Emilija
+FN:Emilija Chun
+TEL;TYPE=home,msg:+4517404509
+TEL;TYPE=voice:+45729964839513804
+EMAIL;TYPE=work:emilija@chun.org
+X-JABBER;TYPE=home,work:emilija.chun@provider.com
+END:VCARD

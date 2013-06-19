@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Alvares;Bríet
+FN:Bríet Alvares
+TEL;TYPE=work,voice,cell:+9049418772
+TEL;TYPE=home,voice:02456116604248
+EMAIL:briet.alvares@provider.com
+END:VCARD

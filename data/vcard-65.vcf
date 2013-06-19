@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Mazur;Farah
+FN:Farah Mazur
+TEL;TYPE=home,cell:+47241677194
+TEL:+47331242188
+EMAIL;TYPE=home,work:farah.mazur@provider.com
+EMAIL:farah.mazur@provider.com
+X-JABBER;TYPE=home,work:farah.mazur@provider.com
+X-JABBER;TYPE=home,work:farah.mazur@company.com
+ADR;TYPE=home,work,parcel,postal:;c/o Dimitra Al-Dahwi;Nishi Hwang Vei 66;Fosssjøen;;16142;Norway
+END:VCARD

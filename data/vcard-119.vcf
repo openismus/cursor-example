@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Rees;Alma;Daisy
+FN:Alma Daisy Rees
+TEL;TYPE=home:083457567
+EMAIL:alma.rees@provider.com
+ADR;TYPE=work,parcel,postal:;;Kavya Salihović Vei 143;Melaker;;79552;Norway
+END:VCARD

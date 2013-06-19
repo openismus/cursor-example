@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Božič;Alexis
+FN:Alexis Božič
+TEL;TYPE=home,work,voice,cell:078361973
+EMAIL;TYPE=work:alexis.bozic@company.com
+EMAIL:alexis@bozic.org
+ADR:;;Carretera Cali 16;Anaco;;51749;Mexico
+END:VCARD

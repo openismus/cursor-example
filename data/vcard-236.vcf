@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Reza;Sahra
+FN:Sahra Reza
+TEL;TYPE=work,voice,cell:07101039070
+TEL;TYPE=home,cell:+47253279751
+TEL;TYPE=work,voice:09125712009
+EMAIL;TYPE=home,work:sahra.reza@provider.com
+X-JABBER;TYPE=home,work:6146128879@social.com
+END:VCARD

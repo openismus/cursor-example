@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Yıldırım;Arianna;Yahli
+FN:Arianna Yahli Yıldırım
+TEL;TYPE=home,cell:020669888394542
+EMAIL;TYPE=home:arianna.yldrm@provider.com
+X-JABBER;TYPE=home,work:arianna.yldrm@company.com
+ADR;TYPE=work:;;Carretera Maracay 30;Uyuni;;22912;Easter Island
+END:VCARD

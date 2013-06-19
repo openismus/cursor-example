@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Vissers;Emilie
+FN:Emilie Vissers
+TEL;TYPE=work,voice:+1843205702
+TEL;TYPE=work:+184499579
+TEL;TYPE=voice,cell:+167783003
+X-JABBER;TYPE=home,work:7579324646@social.com
+END:VCARD

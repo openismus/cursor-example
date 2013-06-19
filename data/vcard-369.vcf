@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Khanna;Jasmine
+FN:Jasmine Khanna
+TEL;TYPE=work,voice:+569616846592
+EMAIL;TYPE=work:jasmine.khanna@company.com
+ADR;TYPE=work,parcel:;;Carril Margrét Salvatore 43;Temuco;;36023;Chile
+END:VCARD

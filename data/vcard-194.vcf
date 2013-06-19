@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Lí;Lucie
+FN:Lucie Lí
+TEL;TYPE=work:+494584362504
+TEL;TYPE=home:+49360718216
+EMAIL;TYPE=home:lucie.li@company.com
+X-JABBER;TYPE=home,work:lucie.li@provider.com
+X-JABBER;TYPE=home,work:lucie.li@provider.com
+X-JABBER:5950738975@social.com
+END:VCARD

@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Zariņš;Catalina
+FN:Catalina Zariņš
+TEL;TYPE=work:+5799312076
+TEL;TYPE=home,work,voice:+57687041647
+TEL;TYPE=work,voice:095495540
+EMAIL;TYPE=home:catalina.zarins@provider.com
+END:VCARD

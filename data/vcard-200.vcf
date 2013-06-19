@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Eng;Malak
+FN:Malak Eng
+TEL;TYPE=home,work:059389588
+TEL;TYPE=work,voice:+5997368278879
+EMAIL:malak@eng.org
+X-JABBER;TYPE=work:malak.eng@provider.com
+ADR;TYPE=work,intl:;;Farah Morgan Weg 43;Groot Tilend;Aruba;95546;Netherlands
+END:VCARD

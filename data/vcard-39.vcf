@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Horváth;Saanvi
+FN:Saanvi Horváth
+TEL;TYPE=work,pref,voice:033538602
+X-JABBER;TYPE=home,work:saanvi.horvath@company.com
+END:VCARD

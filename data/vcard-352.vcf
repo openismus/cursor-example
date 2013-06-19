@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Davidović;Mathilde;Sofie
+FN:Mathilde Sofie Davidović
+TEL;TYPE=voice,cell:04659232827
+EMAIL;TYPE=work:mathilde.davidovic@company.com
+END:VCARD

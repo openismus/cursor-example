@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Juhász;Roghayyeh
+FN:Roghayyeh Juhász
+X-JABBER;TYPE=home:roghayyeh.juhasz@company.com
+X-JABBER;TYPE=home:roghayyeh.juhasz@provider.com
+ADR;TYPE=parcel:;;Rue Vienne 17;Toulon;;26471;France
+END:VCARD

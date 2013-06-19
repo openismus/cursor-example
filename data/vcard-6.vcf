@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Houssain;Ajna
+FN:Ajna Houssain
+TEL;TYPE=home:+58267998446
+TEL;TYPE=work:+5823358565
+EMAIL;TYPE=home:ajna.houssain@company.com
+X-JABBER;TYPE=work:ajna.houssain@provider.com
+X-JABBER;TYPE=work:ajna.houssain@provider.com
+END:VCARD

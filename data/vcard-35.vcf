@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:D*silva;Dimitra
+FN:Dimitra D*silva
+TEL;TYPE=pref:0928379319907
+TEL;TYPE=home:+5441113765
+EMAIL;TYPE=home,work:dimitra.dsilva@provider.com
+EMAIL;TYPE=home:dimitra.dsilva@provider.com
+ADR;TYPE=home,postal:;;Carretera Maracaibo 11;Tulcan;;55072;Argentina
+ADR:;;Carretera Maracaibo 11;Huacho;;89456;Argentina
+END:VCARD

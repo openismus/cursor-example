@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Takács;Kateřina;Nino
+FN:Kateřina Nino Takács
+TEL;TYPE=voice:+5081831030327
+TEL;TYPE=pref,voice,cell:+508154289426
+EMAIL;TYPE=home,work:katerina.takacs@provider.com
+EMAIL;TYPE=work:katerina.takacs@company.com
+END:VCARD

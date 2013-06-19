@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Báez;Ananya
+FN:Ananya Báez
+TEL;TYPE=home,work,cell:+4499199864
+TEL;TYPE=home,voice:+4450359535099
+EMAIL:ananya@baez.org
+X-JABBER;TYPE=home,work:ananya.baez@provider.com
+X-JABBER;TYPE=home:9036437378@social.com
+ADR;TYPE=work,parcel,intl:;;33rd Hessa Barbare Božič Street;Preborough;Isle of Man;24498;United Kingdom
+END:VCARD

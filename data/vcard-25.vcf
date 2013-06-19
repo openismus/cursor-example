@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Choi;Chana
+FN:Chana Choi
+TEL;TYPE=home,voice:0416563363
+EMAIL;TYPE=home,work:chana.choi@company.com
+ADR;TYPE=home,work,intl:;;Estrada Huacho 11;Barquisimeto;;80740;Brazil
+END:VCARD

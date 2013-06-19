@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Sabzwari;Eduarda
+FN:Eduarda Sabzwari
+TEL;TYPE=work,voice,video:+5737684616550
+EMAIL:eduarda.sabzwari@provider.com
+EMAIL;TYPE=home,work:eduarda.sabzwari@company.com
+ADR:;;Carretera Iquitos 75;Merida;;38309;Colombia
+END:VCARD

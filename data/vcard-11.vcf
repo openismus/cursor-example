@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Cooper;Katalin
+FN:Katalin Cooper
+TEL;TYPE=work,pref,cell:16407404684
+TEL;TYPE=voice,cell:1427792306
+EMAIL:katalin.cooper@provider.com
+X-JABBER;TYPE=work:5265891794@social.com
+ADR;TYPE=intl:;;58th Isobel Ruhi Hasani Boulevard;Whitlow;Caicos Islands;79399;United Kingdom
+END:VCARD

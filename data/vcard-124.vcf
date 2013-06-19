@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Yıldırım;Milagros
+FN:Milagros Yıldırım
+TEL;TYPE=voice,cell:011726799622
+X-JABBER;TYPE=work:milagros.yldrm@company.com
+X-JABBER;TYPE=home:5208213789@social.com
+ADR;TYPE=home,intl:28;;;Wolfswald;;29890;Germany
+END:VCARD

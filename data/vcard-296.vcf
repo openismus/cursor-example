@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Iliev;Arina
+FN:Arina Iliev
+TEL;TYPE=home,work,voice:+4748517118879
+EMAIL;TYPE=home:arina.iliev@provider.com
+EMAIL;TYPE=work:arina.iliev@company.com
+ADR;TYPE=home,work:;;Giorgia Panagiotopoulos Vei 10;Elverum;;22508;Norway
+END:VCARD

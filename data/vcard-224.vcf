@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kolar;Agnes
+FN:Agnes Kolar
+TEL;TYPE=home:+4329944587
+EMAIL;TYPE=home,work:agnes@kolar.org
+ADR;TYPE=home,parcel:;;Carol Zerjawi Straße 18;Eisenmarkt;;77032;Austria
+END:VCARD

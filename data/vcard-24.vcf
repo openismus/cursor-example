@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Griffiths;Zuzanna
+FN:Zuzanna Griffiths
+TEL;TYPE=home,work:+5874555984
+TEL;TYPE=work,voice,cell:+58643554841
+TEL;TYPE=work,voice:05415094694
+EMAIL:zuzanna.griffiths@provider.com
+EMAIL;TYPE=home:zuzanna.griffiths@provider.com
+X-JABBER;TYPE=work:zuzanna.griffiths@provider.com
+X-JABBER;TYPE=work:zuzanna.griffiths@provider.com
+ADR:;;Carretera Nazanin-Zahra Jamal 32;Oruro;;20054;Venezuela
+ADR;TYPE=home,postal,intl:;;Carretera Nazanin-Zahra Jamal 32;Morrocoy;;22919;Venezuela
+END:VCARD

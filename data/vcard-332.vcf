@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Grigorov;Valeria
+FN:Valeria Grigorov
+EMAIL;TYPE=home:valeria@grigorov.org
+EMAIL:valeria.grigorov@company.com
+ADR;TYPE=home,work:;;Carretera Guayana 28;Tena;;48880;Colombia
+END:VCARD

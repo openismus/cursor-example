@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Gim;Haeun;Sophie
+FN:Haeun Sophie Gim
+TEL;TYPE=voice:01488790811
+ADR;TYPE=home,intl:;;Rue Martina Mihhailov 80;Grenoble;;68387;Netherlands
+ADR;TYPE=work,parcel,postal:;;Rue Martina Mihhailov 80;Aubusson;;25641;Netherlands
+END:VCARD

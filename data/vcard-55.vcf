@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Lombardo;Emīlija;Leyla,Nia
+FN:Emīlija Leyla Nia Lombardo
+TEL;TYPE=home:047893165028
+EMAIL;TYPE=home,work:emilija.lombardo@company.com
+EMAIL;TYPE=home:emilija.lombardo@provider.com
+X-JABBER:emilija.lombardo@provider.com
+END:VCARD

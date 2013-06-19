@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Refai;Kamila
+FN:Kamila Refai
+TEL;TYPE=home,work,voice:0815454191
+EMAIL:kamila.refai@provider.com
+ADR;TYPE=work,intl:;;Rue Jóhanna Abuzaid 1;Vichy;;85399;Netherlands
+END:VCARD

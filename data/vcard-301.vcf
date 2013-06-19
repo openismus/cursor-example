@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Stanić;Milica
+FN:Milica Stanić
+TEL;TYPE=work:+5364217704
+EMAIL:milica.stanic@company.com
+X-JABBER:6722809141@social.com
+X-JABBER;TYPE=home:milica.stanic@company.com
+END:VCARD

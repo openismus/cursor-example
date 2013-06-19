@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Carvajal;Alexandra;Damia,Naima
+FN:Alexandra Damia Naima Carvajal
+TEL;TYPE=work,cell:+41424578298
+EMAIL;TYPE=home:alexandra.carvajal@company.com
+EMAIL;TYPE=home:alexandra.carvajal@company.com
+X-JABBER;TYPE=work:alexandra.carvajal@provider.com
+X-JABBER:alexandra.carvajal@company.com
+ADR:;;Shayma Xú Straße 21;Carouge;;41187;Switzerland
+END:VCARD

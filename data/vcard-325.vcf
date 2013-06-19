@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Quiroga;Nadia
+FN:Nadia Quiroga
+EMAIL;TYPE=home,work:nadia.quiroga@provider.com
+EMAIL;TYPE=home:nadia.quiroga@provider.com
+X-JABBER:nadia.quiroga@provider.com
+X-JABBER;TYPE=home,work:7744828648@social.com
+END:VCARD

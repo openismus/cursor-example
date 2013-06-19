@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Malek;Charlotte
+FN:Charlotte Malek
+TEL;TYPE=voice,cell:085917742
+TEL;TYPE=home,work:063794815
+EMAIL;TYPE=home:charlotte.malek@company.com
+EMAIL;TYPE=home,work:charlotte@malek.org
+EMAIL;TYPE=home,work:charlotte.malek@company.com
+X-JABBER;TYPE=home:5659819974@social.com
+END:VCARD

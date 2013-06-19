@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Esposito;Maialen
+FN:Maialen Esposito
+TEL;TYPE=home,work,fax:059541331288
+TEL;TYPE=home,cell:088768733
+X-JABBER;TYPE=home:maialen.esposito@provider.com
+X-JABBER;TYPE=home:28495803235@social.com
+END:VCARD

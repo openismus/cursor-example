@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Rivas;Nare
+FN:Nare Rivas
+TEL;TYPE=video:+178018751
+EMAIL:nare.rivas@provider.com
+X-JABBER;TYPE=home,work:67692749766@social.com
+ADR;TYPE=home,work:;;21st Fanham Street;Lewisleigh;;22855;Canada
+END:VCARD

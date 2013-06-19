@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Chaudhry;Lana
+FN:Lana Chaudhry
+TEL;TYPE=work,voice,video,cell:+3989317512
+EMAIL;TYPE=work:lana.chaudhry@provider.com
+X-JABBER;TYPE=home,work:16088182651@social.com
+X-JABBER;TYPE=work:8972117042@social.com
+ADR;TYPE=work,pref,postal:;;Strada Capobrevi 22;Croceviva;;40582;Italy
+END:VCARD

@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Melik;Megan
+FN:Megan Melik
+TEL;TYPE=home,voice:0933672985
+TEL;TYPE=home,voice,fax:072069155
+EMAIL:megan.melik@provider.com
+END:VCARD

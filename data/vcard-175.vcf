@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Wagner;Lior
+FN:Lior Wagner
+TEL;TYPE=home,pref,voice:+646044582108
+EMAIL;TYPE=home:lior.wagner@provider.com
+EMAIL;TYPE=home:lior.wagner@provider.com
+END:VCARD

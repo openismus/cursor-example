@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Sabban;Alise
+FN:Alise Sabban
+TEL:020083305101
+EMAIL;TYPE=home,work:alise.sabban@provider.com
+X-JABBER;TYPE=home:alise.sabban@company.com
+X-JABBER:92351423900@social.com
+END:VCARD

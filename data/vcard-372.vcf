@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Jee;Maryam
+FN:Maryam Jee
+TEL;TYPE=home,work,voice,video:036914406
+TEL;TYPE=work,cell:096480890
+EMAIL:maryam@jee.org
+EMAIL;TYPE=home:maryam.jee@company.com
+X-JABBER:maryam.jee@provider.com
+X-JABBER:1431532294@social.com
+ADR;TYPE=home,work:;;Droga Talia Nakamura 16;Nidzica;;53365;Poland
+END:VCARD

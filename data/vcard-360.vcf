@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Katz;Jennifer
+FN:Jennifer Katz
+TEL;TYPE=home,voice,cell:052177732
+EMAIL;TYPE=home:jennifer@katz.org
+END:VCARD

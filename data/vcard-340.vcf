@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Çoçaj;Lily
+FN:Lily Çoçaj
+TEL;TYPE=pref:+3612286782
+EMAIL;TYPE=work:lily.cocaj@company.com
+X-JABBER;TYPE=home,work:lily.cocaj@provider.com
+ADR;TYPE=home:;;Út Lara Khutsishvili 156;Vásárosbábaalja;;65960;Hungary
+END:VCARD

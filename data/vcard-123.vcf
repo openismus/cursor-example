@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Pettersen;Linnea
+FN:Linnea Pettersen
+TEL;TYPE=home,voice:+35320575462
+EMAIL;TYPE=home:linnea.pettersen@provider.com
+EMAIL;TYPE=home,work:linnea.pettersen@provider.com
+X-JABBER;TYPE=home:linnea.pettersen@provider.com
+X-JABBER;TYPE=work:linnea.pettersen@provider.com
+END:VCARD

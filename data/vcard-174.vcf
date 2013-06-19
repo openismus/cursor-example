@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Inoue;Layan
+FN:Layan Inoue
+TEL;TYPE=home,work,cell:095175016
+TEL;TYPE=work:01157224122
+TEL;TYPE=home:+5379428937911
+EMAIL:layan.inoue@company.com
+EMAIL:layan.inoue@company.com
+ADR:;;Carretera Magdalena 6;La Palma;;86398;Cuba
+END:VCARD

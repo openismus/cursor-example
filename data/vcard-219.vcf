@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Aguilera;Carla
+FN:Carla Aguilera
+TEL;TYPE=voice:030619175
+EMAIL;TYPE=work:carla@aguilera.org
+EMAIL;TYPE=home,work:carla@aguilera.org
+ADR;TYPE=home,parcel:;;Pista Yelysaveta Viktoriya Sim*an 29;Maracaibo;;52413;Portugal
+END:VCARD

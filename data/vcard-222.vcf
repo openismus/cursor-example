@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Tsiklauri;Sakura
+FN:Sakura Tsiklauri
+TEL;TYPE=work,cell:+40482495054
+TEL;TYPE=home,voice:079034166
+TEL;TYPE=home,pref:+40480884990
+EMAIL;TYPE=home,work:sakura.tsiklauri@provider.com
+EMAIL;TYPE=home:sakura.tsiklauri@company.com
+EMAIL;TYPE=home,work:sakura.tsiklauri@provider.com
+X-JABBER:85403852917@social.com
+X-JABBER;TYPE=home,work:sakura.tsiklauri@company.com
+X-JABBER;TYPE=home:sakura.tsiklauri@provider.com
+END:VCARD

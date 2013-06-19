@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Atia;Eliška
+FN:Eliška Atia
+TEL;TYPE=home,work,voice,fax:+9053897580
+EMAIL;TYPE=work:eliska@atia.org
+END:VCARD

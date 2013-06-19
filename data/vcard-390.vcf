@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Berg;Julieta
+FN:Julieta Berg
+TEL;TYPE=home,voice:081977774
+TEL;TYPE=work,voice,fax:0759740536
+X-JABBER:julieta.berg@company.com
+X-JABBER:julieta.berg@provider.com
+END:VCARD

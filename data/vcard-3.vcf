@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Bittar;Erin
+FN:Erin Bittar
+TEL;TYPE=work,fax:0924452365
+EMAIL;TYPE=home:erin.bittar@provider.com
+EMAIL;TYPE=home,work:erin@bittar.org
+X-JABBER;TYPE=home,work:erin.bittar@company.com
+X-JABBER;TYPE=home:erin@bittar.org
+END:VCARD

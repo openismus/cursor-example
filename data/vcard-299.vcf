@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hayatt;Milica
+FN:Milica Hayatt
+TEL;TYPE=home,work,voice:072838199
+TEL;TYPE=home,work,voice:068340761
+X-JABBER:4072982625@social.com
+ADR;TYPE=postal,dom,intl:;;Via Assil Ortega 5;Roccabreve;;63328;Italy
+END:VCARD

@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Arifi;Somayyeh;Chiara
+FN:Somayyeh Chiara Arifi
+TEL;TYPE=work,voice:053202455
+X-JABBER;TYPE=home:somayyeh@arifi.org
+X-JABBER;TYPE=work:somayyeh.arifi@provider.com
+ADR;TYPE=work:;;Carretera Snezana Aina De Jong 2;Ascension;;93262;Spain
+END:VCARD

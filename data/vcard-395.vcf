@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ross;Catalina
+FN:Catalina Ross
+TEL;TYPE=home,work,voice:0470976707
+X-JABBER;TYPE=work:catalina.ross@provider.com
+X-JABBER:catalina.ross@provider.com
+END:VCARD

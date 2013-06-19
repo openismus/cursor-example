@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Serrano;Ida;Khawla
+FN:Ida Khawla Serrano
+TEL;TYPE=home,work,voice,cell:+43805713129
+EMAIL;TYPE=home,work:ida.serrano@provider.com
+X-JABBER:ida@serrano.org
+X-JABBER;TYPE=work:2696706890@social.com
+ADR;TYPE=home,parcel,intl:;;Boulevarder Mitternbrunn 31;St. Andrä am Grossglockner;;84411;Austria
+END:VCARD

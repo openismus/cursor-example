@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Murati;Thea
+FN:Thea Murati
+EMAIL:thea.murati@company.com
+EMAIL;TYPE=home:thea.murati@provider.com
+EMAIL;TYPE=home:thea.murati@company.com
+ADR;TYPE=work,parcel,postal:;;Carretera Lucy van *t Veen 1;Santa Cruz;;91944;Ecuador
+END:VCARD

@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Leiva;Georgia;Didem,Yeeun
+FN:Georgia Didem Yeeun Leiva
+TEL:+5398275406
+EMAIL;TYPE=home:georgia@leiva.org
+EMAIL;TYPE=home,work:georgia.leiva@company.com
+X-JABBER;TYPE=work:5528754570@social.com
+ADR;TYPE=home,work:;;Carretera Temuco 36;El Limon;;85770;Cuba
+END:VCARD
