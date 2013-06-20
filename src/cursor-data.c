@@ -294,7 +294,7 @@ open_sqlitedb (ESourceRegistry *registry,
 	       ESource         *source)
 {
 	EBookBackendSqliteDB *ebsdb;
-	GError *error;
+	GError *error = NULL;
 	gchar *dirname;
 
 	dirname = get_addressbook_directory (registry, source);
