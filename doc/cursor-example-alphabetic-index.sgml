@@ -195,7 +195,7 @@ cursor_example_alphabet_button_clicked (GtkButton     *button,
   index = GPOINTER_TO_INT (g_object_get_data (G_OBJECT (button), "alphabetic-index"));
 
   /* Move to this index */
-  e_book_backend_sqlitedb_cursor_set_target_alphabetic_index (ebsdb, cursor, index);
+  e_book_backend_sqlitedb_cursor_set_target_alphabetic_index (priv->ebsdb, priv->cursor, index);
 
   /* And load one page full of results starting with this index */
   cursor_example_load_page (example);
