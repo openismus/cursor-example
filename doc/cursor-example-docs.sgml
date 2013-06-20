@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+<!ENTITY version SYSTEM "version.xml">
+]>
+<book id="index">
+  <bookinfo>
+    <title>Cursor API Example</title>
+    <abstract>
+      <para>
+	This document describes how the EBookBackendSqliteDB can be used directly
+	in order to implement a sliding window user interface to display contacts.
+      </para>
+    </abstract>
+    <releaseinfo>for &version;</releaseinfo>
+    <authorgroup>
+      <author>
+	<firstname>Tristan</firstname>
+	<surname>Van Berkom</surname>
+      </author>
+    </authorgroup>
+  </bookinfo>
+
+  <part id="main">
+    <title>Cursor Example Documentation</title>
+    <xi:include href="xml/cursor-example-compile-and-run.sgml" />
+    <xi:include href="xml/cursor-example-main.sgml" />
+    <xi:include href="xml/cursor-example-create.sgml" />
+    <xi:include href="xml/cursor-example-alphabetic-index.sgml" />
+    <xi:include href="xml/cursor-example-navigation.sgml" />
+    <xi:include href="xml/cursor-example-notifications.sgml" />
+  </part>
+
+</book>

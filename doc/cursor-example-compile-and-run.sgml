@@ -1,0 +1,97 @@
+<refentry id="cursor-example-compile-and-run" revision="20 June 2013">
+  <refmeta>
+    <refentrytitle>Compiling and Running</refentrytitle>
+    <refmiscinfo>How to compile and run the cursor example program</refmiscinfo>
+  </refmeta>
+  <refnamediv>
+    <refname>Compiling and Running</refname>
+    <refpurpose>
+      How to compile and run the cursor example program
+    </refpurpose>
+  </refnamediv>
+
+  <refsect1 id="build-requirements">
+    <title>Build Requirements</title>
+    <para>
+      To build the cursor example you need:
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>GTK+ 3.4 or later</para>
+      </listitem>
+      <listitem>
+        <para>GIO (and glib/gobject) 2.32 or later</para>
+      </listitem>
+      <listitem>
+        <para>EDS 3.9.90 (the latest code drop including cursor APIs)</para>
+      </listitem>
+    </itemizedlist>
+  </refsect1>
+
+  <refsect1 id="compiling">
+    <title>Compiling</title>
+
+    <para>
+      To build, follow these easy steps:
+      <programlisting>tar -jxf cursor-0.1.0.tar.bz2
+cd cursor-0.1.0/
+./configure
+make</programlisting>
+    </para>
+
+
+    <para>
+      There is no need to install the cursor example program
+    </para>
+  </refsect1>
+
+  <refsect1 id="running">
+    <title>Running the Example</title>
+
+    <para>
+      The example requires that EDS services be running, and
+      that the XDG environment variables be the same for the
+      server processes as they are for the example program.
+    </para>
+
+    <para>
+      So, let's take the example that you installed EDS in
+      the default system prefix '/usr/local', and let's run
+      EDS in such a way that it will create data in a temporary
+      directory that we can remove later on.
+    </para>
+
+    <para>
+      First, setup the relevant environment variables:
+<programlisting>export XDG_DATA_HOME=/home/username/tmp_evo
+export XDG_CONFIG_HOME=/home/username/tmp_evo
+export XDG_CACHE_HOME=/home/username/tmp_evo</programlisting>
+    </para>
+
+    <para>
+      Now start the EDS services and run them in the background:
+<programlisting>/usr/local/libexec/evolution-source-registry &amp;
+/usr/local/libexec/evolution-addressbook-factory -r &amp;</programlisting>
+    </para>
+
+    <para>
+      Now you can run the cursor example in the same environment:
+<programlisting>cd cursor-0.1.0/
+./src/cursor-example</programlisting>
+    </para>
+
+    <para>
+      By default, the example will start by populating a temporary
+      address book with all of the vcards found in the 'cursor-0.1.0/data'
+      directory.
+    </para>
+
+    <para>
+      Alternatively, you can pass a relative or absolute path to 
+      a directory containing ".vcf" vcard files, like so:
+      <programlisting>./src/cursor-example /path/to/directory/containing/vcards</programlisting>
+    </para>
+
+  </refsect1>
+
+</refentry>

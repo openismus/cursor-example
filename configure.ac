@@ -45,6 +45,11 @@ GNOME_COMPILE_WARNINGS([maximum])
 GNOME_MAINTAINER_MODE_DEFINES
 
 dnl ================================================================
+dnl Check for gtk-doc
+dnl ================================================================
+GTK_DOC_CHECK(1.9)
+
+dnl ================================================================
 dnl Check for gobject
 dnl ================================================================
 PKG_CHECK_MODULES(GIO, [gio-2.0 >= 2.32.0])
@@ -78,6 +83,8 @@ AC_SUBST([AM_LDFLAGS])
 AC_CONFIG_FILES([
 Makefile
 src/Makefile
+doc/Makefile
+doc/version.xml
 ])
 
 AC_OUTPUT

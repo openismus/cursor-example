@@ -1,0 +1,102 @@
+<refentry id="cursor-example-main" revision="20 June 2013">
+  <refmeta>
+    <refentrytitle>Main program flow</refentrytitle>
+    <refmiscinfo>Program flow description for a view application</refmiscinfo>
+  </refmeta>
+  <refnamediv>
+    <refname>Main program flow</refname>
+    <refpurpose>
+      Program flow description for a view application.
+    </refpurpose>
+  </refnamediv>
+
+  <refsect1>
+    <title>Toplevel Functionality of a View Application</title>
+
+    <para>
+      The following function sequence diagram describes the basic toplevel program flow
+      of a view application. This diagram describes four actors involved in a sliding
+      window contact viewing application:
+    </para>
+
+    <itemizedlist>
+      <listitem>
+        <para>User Interface</para>
+        <para>
+	  The User Interface is a virtual component which displays contacts, provides
+	  a method of browsing through the contact list either by selecting the alphabetic
+	  index (i.e. go to letter "J") or by browsing up and down the contact list.
+        </para>
+      </listitem>
+
+      <listitem>
+        <para>Intermediate Code</para>
+        <para>
+	  The intermediate code is what we are most interested in, the content of this document
+	  focuses on how to implement this intermediate code in order to implement a user interface
+	  on top of the existing Cursor API and Addressbook server.
+        </para>
+      </listitem>
+
+      <listitem>
+        <para>EBookBackendSqliteDB API</para>
+        <para>
+	  This is the backend EDS object we will be using to browse our contact list using SQLite.
+	  The EBookBackendSqliteDB object provides the EbSdbCursor API we are interested in.
+        </para>
+      </listitem>
+
+      <listitem>
+        <para>Addressbook Server</para>
+        <para>
+	  The Addressbook server is the only actor in the system with write access to the
+	  SQLite contact database, for our purposes we are only interested in receiving notifications
+	  that the contact database was either modified, or if the locale used to sort contacts has
+	  changed.
+        </para>
+      </listitem>
+    </itemizedlist>
+
+    <inlinegraphic fileref="cursor-example-sequence-diagram.png" format="PNG" align="center"></inlinegraphic>
+
+    <para>
+      The above diagram describes in basic terms the interactions of these components for five important scanarios:
+    </para>
+
+    <itemizedlist>
+      <listitem>
+        <para>
+	  <link linkend="cursor-example-create">Creating the Cursor</link> and Loading the initial UI state.
+	</para>
+      </listitem>
+      <listitem>
+        <para>
+	  Responding to a user's request to <link linkend="cursor-navigation">move the cursor</link>
+	  position through the results.
+	</para>
+      </listitem>
+      <listitem>
+        <para>
+	  Responding to a user's request to jump to a
+	  <link linkend="navigate-alphabet">specific letter</link> in the active alphabet.
+	</para>
+      </listitem>
+      <listitem>
+        <para>
+	  Responding to a server notification that the
+	  <link linkend="addressbook-modifications">addressbook was modified</link>.
+	</para>
+      </listitem>
+      <listitem>
+        <para>
+	  Responding to a server notification that the 
+	  <link linkend="addressbook-locale-changes">system locale has changed</link>.
+	</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>
+      We'll cover these scenarios in the following sections of this document.
+    </para>
+  </refsect1>
+</refentry>

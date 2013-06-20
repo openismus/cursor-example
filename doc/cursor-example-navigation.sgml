@@ -1,0 +1,255 @@
+<refentry id="cursor-example-navigation" revision="20 June 2013">
+  <refmeta>
+    <refentrytitle>Navigating with the Cursor</refentrytitle>
+    <refmiscinfo>How to navigate the contact list using the Cursor APIs</refmiscinfo>
+  </refmeta>
+  <refnamediv>
+    <refname>Navigating with the Cursor</refname>
+    <refpurpose>
+      How to navigate the contact list using the Cursor APIs
+    </refpurpose>
+  </refnamediv>
+
+  <refsect1 id="cursor-positions">
+    <title>Understanding Cursor Positions</title>
+
+    <para>
+      It's important to have an understanding of the current and previous cursor positions
+      as defined by the EbSdbCursor. When an EbSdbCursor is <link linkend="create-ebsdb-cursor">initially created</link> 
+      then it is at a null position, which is to say any cursor navigation will start at the beginning
+      of the cursor results (or at the ending, if navigation is happening in reverse).
+    </para>
+
+    <para>
+      Navigation of the cursor is generally performed with e_book_backend_sqlitedb_cursor_move_by().
+      After navigating the cursor forwards or backwards through the results, then the current
+      cursor position will be moved to the last result which was fetched, or it will be set
+      to a null position again if the navigation ran off the end of the available contact
+      list. The previously current position will be stored as the previous position any time
+      that e_book_backend_sqlitedb_cursor_move_by() is called.
+    </para>
+
+    <para>
+      Multiple calls to e_book_backend_sqlitedb_cursor_move_by() in the same direction
+      will return the following contacts in the cursor result list in the order of the direction,
+      each time starting with results following the current cursor position, and each time updating
+      the current cursor position with the last result returned.
+    </para>
+
+    <para>
+      An interesting exception is when navigating to an <link linkend="navigate-alphabet">alphabetic position</link>.
+      Navigating the cursor to a specific alphabet index will update the current cursor position without updating the
+      previous cursor position. Furthermore, the alphabetic position will never point to an exact contact, but instead
+      points to a position in between contacts. Any subsequent call to e_book_backend_sqlitedb_cursor_move_by()
+      moving forward will fetch results starting with the first result which starts with the given alphabetic index letter.
+      Any subsequent call to e_book_backend_sqlitedb_cursor_move_by() moving in reverse will fetch results starting with the
+      last result starting with the letter preceeding the given alphabetic index letter.
+    </para>
+  </refsect1>
+
+  <refsect1 id="cursor-navigation">
+    <title>Navigating the cursor and loading contacts</title>
+
+    <para>
+      Let's assume that your contact window has space to display 10 contacts, as does
+      our example code. Loading a single page contacts can be done like so:
+      <informalexample>
+	<programlisting><![CDATA[GError *error = NULL;
+GSList *results = NULL;
+
+/* Ask the cursor for the next 10 results */
+if (!e_book_backend_sqlitedb_cursor_move_by (ebsdb, cursor,
+                                             EBSDB_CURSOR_ORIGIN_CURRENT,
+					     10, &results, &error))
+  {
+    g_warning ("Uh Oh... there was some error fetching the results: %s", error->message);
+    g_error_free (error);
+  }
+else
+  {
+    /* Each member of the 'results' list is a EbSdbSearchData structure */
+    EbSdbSearchData *result;
+    gint i;
+
+    /* Fill the page with results for the current cursor position
+     */
+    for (i = 0; i < 10; i++)
+      {
+        /* Let's get the result for this slot in the UI, g_slist_nth_data()
+         * will return NULL if we are asking for an index which runs off the
+         * end of the returned list.
+         *
+         * This can happen because e_book_backend_sqlitedb_cursor_move_by() might
+         * not return as many results as we asked for.
+         */
+        result = g_slist_nth_data (results, i);
+
+        if (result)
+	  {
+            EContact *contact;
+            const gchar *family_name, *given_name;
+            gchar *txt;
+
+            /* The results contain vcards, let's create a contact to parse and fetch the data to display */
+            contact = e_contact_new_from_vcard (result->vcard);
+
+            /* Get some data to display for this contact */
+            family_name = (const gchar *)e_contact_get_const (contact, E_CONTACT_FAMILY_NAME);
+            given_name = (const gchar *)e_contact_get_const (contact, E_CONTACT_GIVEN_NAME);
+
+            /* Let's create some string to display in the UI */
+            txt = g_strdup_printf ("%s, %s", family_name, given_name);
+
+            /* And update the UI for slot 'i' with the UI string */
+            update_view_slot (i, txt);
+            g_free (txt);
+
+            g_object_unref (contact);
+	  }
+	else
+          {
+            /* Looks like we hit the end of the results, there are less than 10 results to
+             * display in our UI so let's make sure to erase whatever was previously in the
+             * last UI slots.
+             */
+            update_view_slot (i, NULL);
+          }
+      }
+
+    /* This is the proper way to free the results returned by e_book_backend_sqlitedb_cursor_move_by() */
+    g_slist_free_full (results, (GDestroyNotify)e_book_backend_sqlitedb_search_data_free);
+  }]]></programlisting>
+      </informalexample>
+
+    </para>
+
+    <para>
+      If you want to load the next page of results, just call e_book_backend_sqlitedb_cursor_move_by()
+      again.
+    </para>
+
+    <para>
+      If the you have received a notification that the addressbook has been modified by the
+      addressbook server, then you can reload the current window position like so:
+      <informalexample>
+	<programlisting><![CDATA[GError *error = NULL;
+GSList *results = NULL;
+
+/* Ask the cursor for 10 results starting from the same position as the
+ * last query did. This may not return the same results but will report
+ * results starting at the same position which the last query did.
+ */
+if (!e_book_backend_sqlitedb_cursor_move_by (ebsdb, cursor,
+                                             EBSDB_CURSOR_ORIGIN_PREVIOUS,
+					     10, &results, &error))
+  {
+    g_warning ("Uh Oh... there was some error fetching the results: %s", error->message);
+    g_error_free (error);
+  }
+else
+  {
+    /* Load contacts ... */
+  }]]></programlisting>
+      </informalexample>
+    </para>
+
+    <para>
+      If you want to fetch the previous page of results, you can use a technique
+      which moves the cursor position without actually fetching results, and then
+      navigating in reverse like so:
+
+      <informalexample>
+	<programlisting><![CDATA[GError *error = NULL;
+GSList *results = NULL;
+
+/* Move the cursor forward by one contact from the previous cursor position,
+ * and don't fetch any results.
+ *
+ * It's important to move forward by one contact first, because we want
+ * our following query to be inclusive of the last visible contact from
+ * the previous page.
+ */
+if (!e_book_backend_sqlitedb_cursor_move_by (ebsdb, cursor,
+                                             EBSDB_CURSOR_ORIGIN_PREVIOUS,
+					     1, NULL, &error))
+  {
+    g_warning ("Uh Oh... there was some error fetching the results: %s", error->message);
+    g_error_free (error);
+  }
+/* Now fetch the results in reverse from the last visible page
+ */
+else if (!e_book_backend_sqlitedb_cursor_move_by (ebsdb, cursor,
+                                                  EBSDB_CURSOR_ORIGIN_CURRENT,
+					          -10, &results, &error))
+  {
+    g_warning ("Uh Oh... there was some error fetching the results: %s", error->message);
+    g_error_free (error);
+  }
+else
+  {
+    /* The results were fetched in reverse order, so we should reverse the
+     * list before loading contacts...
+     */
+    results = g_slist_reverse (results);
+
+    /* Load contacts ... */
+
+  }]]></programlisting>
+      </informalexample>
+    </para>
+
+    <para>
+      Alternatively, you could just reverse the cursor an entire page backwards from the
+      previous origin and then loading the page:
+      <informalexample>
+	<programlisting><![CDATA[GError *error = NULL;
+GSList *results = NULL;
+
+/* Move the cursor backwards by 10 contacts from the previous page 
+ * position and don't fetch any results.
+ */
+if (!e_book_backend_sqlitedb_cursor_move_by (ebsdb, cursor,
+                                             EBSDB_CURSOR_ORIGIN_PREVIOUS,
+					     -10, NULL, &error))
+  {
+    g_warning ("Uh Oh... there was some error fetching the results: %s", error->message);
+    g_error_free (error);
+  }
+/* Now fetch the results forward from the last visible page
+ */
+else if (!e_book_backend_sqlitedb_cursor_move_by (ebsdb, cursor,
+                                                  EBSDB_CURSOR_ORIGIN_CURRENT,
+					          10, &results, &error))
+  {
+    g_warning ("Uh Oh... there was some error fetching the results: %s", error->message);
+    g_error_free (error);
+  }
+else
+  {
+    /* Load contacts ... */
+
+  }]]></programlisting>
+      </informalexample>
+    </para>
+
+    <para>
+      At any time, you can set the cursor to a numerical position, like to the 463rd contact:
+      <informalexample>
+	<programlisting><![CDATA[GError *error = NULL;
+
+/* Move the cursor to position 463.
+ */
+if (!e_book_backend_sqlitedb_cursor_move_by (ebsdb, cursor,
+                                             EBSDB_CURSOR_ORIGIN_RESET,
+					     463, NULL, &error))
+  {
+    g_warning ("Uh Oh... there was some error moving the cursor position: %s", error->message);
+    g_error_free (error);
+  }]]></programlisting>
+      </informalexample>
+    </para>
+
+
+  </refsect1>
+
+</refentry>

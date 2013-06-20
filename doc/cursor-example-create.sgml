@@ -1,0 +1,197 @@
+<refentry id="cursor-example-create" revision="20 June 2013">
+  <refmeta>
+    <refentrytitle>Creating the Cursor</refentrytitle>
+    <refmiscinfo>How to create the EBookBackendSqliteDB and EbSdbCursor</refmiscinfo>
+  </refmeta>
+  <refnamediv>
+    <refname>Creating the Cursor</refname>
+    <refpurpose>
+      How to create the EBookBackendSqliteDB and EbSdbCursor.
+    </refpurpose>
+  </refnamediv>
+
+  <refsect1 id="create-ebsdb">
+    <title>How to create the EBookBackendSqliteDB</title>
+
+    <para>
+      In order to create the EBookBackendSqliteDB, you first need to acquire an ESource.
+      An ESource is a base class in EDS which describes a collection of data like a calendar
+      or an addressbook. What we're interested in is an addressbook, there are ways to
+      create a new addressbook using e_source_new() and e_source_registry_commit_source_sync()
+      but for the purpose of this document let's just go with the default system addressbook
+      provided by the default EDS installation.
+    </para>
+
+    <para>
+      In order to fetch an ESource, you will first need a handle on the source registry,
+      fetch the registry with the following code:
+      <informalexample>
+	<programlisting>GError *error = NULL;
+
+ESourceRegistry *registry = e_source_registry_new_sync (NULL, &amp;error);
+
+if (!registry)
+  {
+    g_critical ("Aw shucks, I must have forgotten to start the EDS registry service: %s", error->message)
+    g_error_free (error);
+    abort ();
+  }</programlisting>
+      </informalexample>
+    </para>
+
+    <para>
+      Fetch the default builtin addressbook using EDS's convenience API like so:
+      <informalexample>
+	<programlisting>ESource *source = e_source_registry_ref_default_address_book (registry);</programlisting>
+      </informalexample>
+    </para>
+
+    <para>
+      Since we are playing our little evil trick, and hijacking EDS's internal SQLite module to access the
+      contacts directly, we'll need to first determine the location of the SQLite DB on disk. To determine
+      the local directory where the addressbook is stored, a function like this can be used:
+      <informalexample>
+	<programlisting><![CDATA[static gchar *
+get_addressbook_directory (ESourceRegistry *registry,
+			   ESource         *source)
+{
+  ESource *builtin_source;
+  const gchar *user_data_dir;
+  const gchar *uid;
+  gchar *filename = NULL;
+
+  uid = e_source_get_uid (source);
+  g_return_val_if_fail (uid != NULL, NULL);
+
+  user_data_dir = e_get_user_data_dir ();
+
+  builtin_source = e_source_registry_ref_builtin_address_book (registry);
+
+  /* Special case directory name for the builtin addressbook source */
+  if (builtin_source != NULL && e_source_equal (source, builtin_source))
+    uid = "system";
+
+  filename = g_build_filename (user_data_dir, "addressbook", uid, NULL);
+
+  if (builtin_source)
+    g_object_unref (builtin_source);
+
+  return filename;
+}]]></programlisting>
+      </informalexample>
+    </para>
+
+    <para>
+      In addition to the directory name where the addressbook is stored, we need to use some constant
+      values which match the values used by the addressbook service, this way we know we are accessing
+      the same data which is has been written by the addressbook service:
+      <informalexample>
+	<programlisting>#define SQLITEDB_EMAIL_ID    "addressbook@localbackend.com"
+#define SQLITEDB_FOLDER_ID   "folder_id"
+#define SQLITEDB_FOLDER_NAME "folder"</programlisting>
+      </informalexample>
+    </para>
+
+    <para>
+      Now we have everything we need to create an instance of the EBookBackendSqliteDB object,
+      create one with the following code:
+      <informalexample>
+	<programlisting><![CDATA[EBookBackendSqliteDB *ebsdb;
+GError *error = NULL;
+gchar *directory_name;
+
+directory_name = get_addressbook_directory (registry, source);
+ebsdb = e_book_backend_sqlitedb_new (dirname,
+	                             SQLITEDB_EMAIL_ID,
+	                             SQLITEDB_FOLDER_ID,
+                                     SQLITEDB_FOLDER_NAME,
+                                     TRUE, &error);
+
+if (!ebsdb)
+  {
+    g_critical ("Hmmm, something went terribly wrong: %s", error->message);
+    g_error_free (error);
+  }
+
+g_free (directory_name);]]></programlisting>
+      </informalexample>
+    </para>
+  </refsect1>
+
+  <refsect1 id="create-ebsdb-cursor">
+    <title>How to create the EbSdbCursor</title>
+
+    <para>
+      Now that we have an EBookBackendSqliteDB instance, we're ready to go ahead
+      and create our cursor handle. Let's create an unfiltered cursor with 2 sort
+      keys. The primary sort key will be the contact's family name and the secondary sort
+      key will be contact's given name.
+    </para>
+
+    <para>
+      Create the cursor with the following code:
+      <informalexample>
+	<programlisting><![CDATA[EContactField sort_fields[] = { E_CONTACT_FAMILY_NAME, E_CONTACT_GIVEN_NAME };
+EBookSortType sort_types[] = { E_BOOK_SORT_ASCENDING, E_BOOK_SORT_ASCENDING };
+EbSdbCursor *cursor;
+GError *error = NULL;
+
+cursor = e_book_backend_sqlitedb_cursor_new (ebsdb,
+                                             SQLITEDB_FOLDER_ID,
+                                             NULL,
+                                             sort_fields,
+                                             sort_types, 2,
+                                             &error);
+
+if (!cursor)
+  g_critical ("Hmmm looks like I made an invalid request: %s\n", error->message);]]></programlisting>
+      </informalexample>
+    </para>
+
+    <para>
+      Creating the cursor can only fail if you try to specify sort keys, or search filtering expressions
+      which access EContactFields that are not configured to be in the summary information of the given
+      EBookBackendSqliteDB object.
+    </para>
+
+    <para>
+      The summary information can be configured before the addressbook is ever opened for the first time
+      by the addressbook server. This is done by using the ESourceBackendSummarySetup apis
+      e_source_backend_summary_setup_set_summary_fields() and e_source_backend_summary_setup_set_indexed_fields()
+      to configure the given ESource.
+    </para>
+
+    <para>
+      In case this is useful, here is an example of how to configure the ESource before it is ever used:
+      <informalexample>
+	<programlisting><![CDATA[ESourceBackendSummarySetup *setup;
+
+/* Ensure the type is registered first */
+g_type_ensure (E_TYPE_SOURCE_BACKEND_SUMMARY_SETUP);
+
+/* Fetch the configuration source extension, this will create the extension on the given ESource */
+setup = e_source_get_extension (source, E_SOURCE_EXTENSION_BACKEND_SUMMARY_SETUP);
+
+/* Set the EContactFields which will be stored in the summary for quick lookups with SQLite queries */
+e_source_backend_summary_setup_set_summary_fields (setup,
+                                                   E_CONTACT_FULL_NAME,
+                                                   E_CONTACT_FAMILY_NAME,
+                                                   E_CONTACT_GIVEN_NAME,
+                                                   E_CONTACT_EMAIL,
+                                                   E_CONTACT_TEL,
+                                                   0);
+
+/* Do some optimizations, set which of the summary fields have indexes declared */
+e_source_backend_summary_setup_set_indexed_fields (setup,
+                                                   E_CONTACT_FULL_NAME, E_BOOK_INDEX_PREFIX,
+                                                   E_CONTACT_FAMILY_NAME, E_BOOK_INDEX_PREFIX,
+                                                   E_CONTACT_GIVEN_NAME, E_BOOK_INDEX_PREFIX,
+                                                   E_CONTACT_EMAIL, E_BOOK_INDEX_PREFIX,
+                                                   E_CONTACT_TEL, E_BOOK_INDEX_PREFIX,
+                                                   E_CONTACT_TEL, E_BOOK_INDEX_PHONE,
+                                                   0);]]></programlisting>
+      </informalexample>
+    </para>
+  </refsect1>
+
+</refentry>

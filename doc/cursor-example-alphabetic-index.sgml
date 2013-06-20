@@ -1,0 +1,209 @@
+<refentry id="cursor-example-alphabetic-index" revision="20 June 2013">
+  <refmeta>
+    <refentrytitle>Using the Alphabetic Index</refentrytitle>
+    <refmiscinfo>How to leverage the Alphabetic Index features</refmiscinfo>
+  </refmeta>
+  <refnamediv>
+    <refname>Using the Alphabetic Index</refname>
+    <refpurpose>
+      How to leverage the Alphabetic Index features.
+    </refpurpose>
+  </refnamediv>
+
+  <refsect1 id="load-alphabet">
+    <title>How to load the active alphabet</title>
+
+    <para>
+      The active alphabet is dependant on the current locale setting of the EBookBackendSqliteDB
+      object, for instance in Japanese locales the active alphabet is a Japanese alphabet, in
+      English, French, German etc. the active alphabet will be a Latin Alphabet.
+    </para>
+
+    <para>
+      The alphabet can be loaded using the ECollator helper object returned by
+      e_book_backend_sqlitedb_ref_collator() like so:
+      <informalexample>
+	<programlisting><![CDATA[ECollator *collator;
+
+collator = e_book_backend_sqlitedb_ref_collator (ebsdb);
+
+/* Use collator and then unref it when finished */
+e_collator_unref (collator);]]></programlisting>
+      </informalexample>
+    </para>
+
+    <para>
+      Loading the alphabet can be semantically different depending on what
+      kind of user interface features you want to provide for jumping to the
+      contacts at a given letter in the alphabet. Our example code simply
+      uses an ordered list of buttons in a scrolled window, a nicer user
+      interface might provide a vertical alphabetic slider with the alphabet
+      labels printed from the top to the bottom of the slider, perhaps with the
+      current alphabet index printed on the slider knob.
+    </para>
+
+    <para>
+      Fetch the attributes of the active alphabet using the
+      e_collator_get_index_labels() API:
+      <informalexample>
+	<programlisting><![CDATA[const gchar *const *labels;
+gint i, n_labels = 0;
+
+labels = e_collator_get_index_labels (collator, &n_labels, NULL, NULL, NULL);
+
+for (i = 0; i < n_labels; i++)
+  {
+    /* Add some access to your user interface for each index.
+     *
+     * labels[i] holds a UTF-8 string appropriate to display
+     * for each given alphabet index. The index itsef will be
+     * useful later on when jumping to a given alphabetic index
+     * using the e_book_backend_sqlitedb_cursor_set_target_alphabetic_index() API.
+     */
+    create_user_interface_access (labels[i], i);
+  }]]></programlisting>
+      </informalexample>
+    </para>
+
+    <para>
+      Note that we've ignored some the parameters to e_collator_get_index_labels(),
+      these parameters are return locations for the invalid alphabetic indexes, the
+      display labels for these indexes are usually the ellipsis character '…'.
+    </para>
+
+    <itemizedlist>
+      <listitem>
+        <para>underflow</para>
+        <para>
+	  The underflow index is used to sort any words below the active alphabet
+        </para>
+      </listitem>
+
+      <listitem>
+        <para>inflow</para>
+        <para>
+	  The inflow index is used to sort any words between the active alphabet(s),
+	  this is currently unused, but ICU libraries make it possible to have more than
+	  one active alphabet, if for example you are using an Arabic or Greek locale and
+	  expect to have many words in Latin script which would otherwise all be listed
+	  in the underflow or overflow indexes.
+        </para>
+      </listitem>
+
+      <listitem>
+        <para>overflow</para>
+        <para>
+	  The overflow index is used to sort any words above the active alphabet
+        </para>
+      </listitem>
+    </itemizedlist>
+
+  </refsect1>
+
+  <refsect1 id="determine-alphabet-position">
+    <title>Determining current alphabetic position</title>
+
+    <para>
+      Over the course of browsing contacts with the cursor API, depending
+      on how your user interface is defined, it might be important to indicate
+      which letter you are currently browsing. For instance if you are displaying
+      an alphabetic slider you might want to update the knob position to point to
+      the correct letter position after the user has moved the current window position.
+    </para>
+
+    <para>
+      A good time to do this is when fetching the results to load in the current
+      viewable page of contacts, based on the first contact visible in the window.
+      Since loading contacts is covered in
+      <link linkend="cursor-navigation">another section of this document</link>, lets
+      just assume right now that you have a pointer to the first EContact in the
+      visible contact window on hand.
+    </para>
+
+    <para>
+      Since we <link linkend="create-ebsdb-cursor">created the cursor</link> using
+      E_CONTACT_FAMILY_NAME as our primary sort key, we'll need to use that field
+      to determine which index the given EContact belongs in, like so:
+      <informalexample>
+	<programlisting><![CDATA[ECollator *collator;
+gint contact_index;
+const gchar *family_name;
+
+/* Get the family name for this contact */
+family_name = (const gchar *)e_contact_get_const (contact, E_CONTACT_FAMILY_NAME);
+
+/* Determine which alphabetic index this contact belongs in */
+collator = e_book_backend_sqlitedb_ref_collator (ebsdb);
+
+/* This index can now be used to set the active slider position,
+ * or update some indicator showing which letter we are currently
+ * browsing.
+ */
+contact_index = e_collator_get_index (collator, family_name);
+
+e_collator_unref (collator);]]></programlisting>
+      </informalexample>
+    </para>
+
+    <para>
+      In our example code, we don't use a slider but instead we have
+      a label displaying which alphabetic position we are currently
+      browsing. Assuming you've just determined the contact index
+      with the above example, the label for that index can easily
+      be fetched:
+      <informalexample>
+	<programlisting><![CDATA[const gchar *const *labels;
+
+/* Fetch the array of alphabet labels */
+labels = e_collator_get_index_labels (collator, NULL, NULL, NULL, NULL);
+
+/* The index returned by e_collator_get_index() will always be a position
+ * in the array of alphabet labels.
+ */
+update_current_alphabet_position_label (labels[contact_index]);]]></programlisting>
+      </informalexample>
+    </para>
+    
+
+  </refsect1>
+
+  <refsect1 id="navigate-alphabet">
+    <title>How to jump to a specific position in the alphabetic index</title>
+
+    <para>
+      While we were <link linkend="load-alphabet">loading the active alphabet</link> we
+      were provided with alphabetic labels in an array, each index of that array representing
+      a position in the active alphabet. Now we can use those symbolic positions to navigate
+      the cursor to a specific index in the active alphabet using the
+      e_book_backend_sqlitedb_cursor_set_target_alphabetic_index() API.
+    </para>
+
+    <para>
+      Depending on how you stored the index in your user interface you might fetch the
+      index in different ways, for instance you might use the alphabetic slider position
+      as an index. In our example code we used simple buttons and store the index on
+      each button, so that when a given button is pressed we do the following:
+      <informalexample>
+	<programlisting><![CDATA[static void
+cursor_example_alphabet_button_clicked (GtkButton     *button,
+					CursorExample *example)
+{
+  CursorExamplePrivate *priv = example->priv;
+  gint                  index;
+
+  /* Fetch the alphabetic index which we previously stored on this specific alphabet button */
+  index = GPOINTER_TO_INT (g_object_get_data (G_OBJECT (button), "alphabetic-index"));
+
+  /* Move to this index */
+  e_book_backend_sqlitedb_cursor_set_target_alphabetic_index (ebsdb, cursor, index);
+
+  /* And load one page full of results starting with this index */
+  cursor_example_load_page (example);
+  cursor_example_update_sensitivity (example);
+  cursor_example_update_status (example);
+}]]></programlisting>
+      </informalexample>
+    </para>
+  </refsect1>
+
+</refentry>

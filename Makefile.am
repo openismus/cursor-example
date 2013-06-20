@@ -1,4 +1,6 @@
-SUBDIRS = src
+SUBDIRS = src doc
+
+DISTCHECK_CONFIGURE_FLAGS = --enable-gtk-doc
 
 EXTRA_DIST = README $(VCARDS)
 
