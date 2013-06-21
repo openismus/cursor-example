@@ -18,7 +18,8 @@
       in the main user facing APIs which are yet to be developped at this time. However
       it is possible to handle change notifications currently using the EBookClientView
       APIs, or by some other system IPC service which broadcasts a notification whenever
-      the system addressbook is known to have been modified.
+      the system addressbook is known to have been modified (after the modification is
+      known to have completed).
     </para>
 
     <para>
@@ -30,7 +31,7 @@
 
     <para>
       To reload the page at the current cursor position, e_book_backend_sqlitedb_cursor_move_by()
-      must be called using EBSDB_CURSOR_ORIGIN_PREVIOUS cursor origin as was
+      can be called using the EBSDB_CURSOR_ORIGIN_PREVIOUS origin as was
       <link linkend="cursor-navigation">described here</link>.
     </para>
   </refsect1>
@@ -129,9 +130,9 @@ if (!e_book_backend_sqlitedb_set_locale (ebsdb,
  */
 if (!e_book_backend_sqlitedb_cursor_move_by (ebsdb, cursor,
                                              EBSDB_CURSOR_ORIGIN_RESET,
-					     463, NULL, &error))
+					     10, NULL, &error))
   {
-    g_warning ("Uh Oh... there was some error resetting the cursor position: %s", error->message);
+    g_warning ("Uh Oh... there was some error resetting the cursor: %s", error->message);
     g_error_free (error);
   }
 else

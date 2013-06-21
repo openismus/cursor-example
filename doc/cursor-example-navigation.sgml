@@ -200,7 +200,7 @@ else
 
     <para>
       Alternatively, you could just reverse the cursor an entire page backwards from the
-      previous origin and then loading the page:
+      previous origin and then load the page:
       <informalexample>
 	<programlisting><![CDATA[GError *error = NULL;
 GSList *results = NULL;

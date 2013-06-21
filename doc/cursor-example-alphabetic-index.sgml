@@ -157,8 +157,8 @@ e_collator_unref (collator);]]></programlisting>
 /* Fetch the array of alphabet labels */
 labels = e_collator_get_index_labels (collator, NULL, NULL, NULL, NULL);
 
-/* The index returned by e_collator_get_index() will always be a position
- * in the array of alphabet labels.
+/* The index returned by e_collator_get_index() will always be a valid
+ * position in the array of alphabet labels.
  */
 update_current_alphabet_position_label (labels[contact_index]);]]></programlisting>
       </informalexample>

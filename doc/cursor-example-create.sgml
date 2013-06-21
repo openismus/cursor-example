@@ -84,7 +84,7 @@ get_addressbook_directory (ESourceRegistry *registry,
     <para>
       In addition to the directory name where the addressbook is stored, we need to use some constant
       values which match the values used by the addressbook service, this way we know we are accessing
-      the same data which is has been written by the addressbook service:
+      the same data which has been written by the addressbook service:
       <informalexample>
 	<programlisting>#define SQLITEDB_EMAIL_ID    "addressbook@localbackend.com"
 #define SQLITEDB_FOLDER_ID   "folder_id"
@@ -124,8 +124,8 @@ g_free (directory_name);]]></programlisting>
     <para>
       Now that we have an EBookBackendSqliteDB instance, we're ready to go ahead
       and create our cursor handle. Let's create an unfiltered cursor with 2 sort
-      keys. The primary sort key will be the contact's family name and the secondary sort
-      key will be contact's given name.
+      keys, both of them in ascending order. The primary sort key will be the
+      contact's family name and the secondary sort key will be contact's given name.
     </para>
 
     <para>
