@@ -1,4 +1,3 @@
-/* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 /*
  * Copyright (C) 2013 Intel Corporation
  *
@@ -29,7 +28,7 @@ static void            cursor_example_class_init              (CursorExampleClas
 static void            cursor_example_init                    (CursorExample      *example);
 static void            cursor_example_dispose                 (GObject            *object);
 
-/* Callbacks */
+/* UI Callbacks */
 static gboolean        cursor_example_window_deleted          (GtkWidget          *widget,
 							       GdkEvent           *event,
 							       CursorExample      *example);
@@ -38,6 +37,11 @@ static void            cursor_example_alphabet_button_clicked (GtkButton        
 static void            cursor_example_up_button_clicked       (GtkButton          *button,
 							       CursorExample      *example);
 static void            cursor_example_down_button_clicked     (GtkButton          *button,
+							       CursorExample      *example);
+
+/* EDS Callbacks */
+static void            cursor_example_locale_changed          (EBookClient        *client,
+							       GParamSpec         *pspec,
 							       CursorExample      *example);
 
 /* Utilities */
@@ -60,7 +64,8 @@ struct _CursorExamplePrivate {
   GtkWidget *alphabet_label;
   GtkWidget *slots[N_SLOTS];
 
-  /* EDS SqliteDB and Cursor */
+  /* EDS Resources */
+  EBookClient          *client;
   EBookBackendSqliteDB *ebsdb;
   EbSdbCursor          *cursor;
 
@@ -177,12 +182,17 @@ cursor_example_dispose (GObject  *object)
       priv->cursor = NULL;
     }
 
+  if (priv->client)
+    {
+      g_object_unref (priv->client);
+      priv->client = NULL;
+    }
+
   G_OBJECT_CLASS (cursor_example_parent_class)->dispose (object);
 }
 
-
 /************************************************************************
- *                             Callbacks                                *
+ *                           UI Callbacks                               *
  ************************************************************************/
 static gboolean
 cursor_example_window_deleted (GtkWidget          *widget,
@@ -264,6 +274,48 @@ cursor_example_alphabet_button_clicked (GtkButton     *button,
   e_book_backend_sqlitedb_cursor_set_target_alphabetic_index (priv->ebsdb, priv->cursor, index);
 
   /* And load one page full of results starting with this index */
+  cursor_example_load_page (example);
+  cursor_example_update_sensitivity (example);
+  cursor_example_update_status (example);
+}
+
+/************************************************************************
+ *                           EDS Callbacks                              *
+ ************************************************************************/
+static void
+cursor_example_locale_changed (EBookClient        *client,
+			       GParamSpec         *pspec,
+			       CursorExample      *example)
+{
+  CursorExamplePrivate *priv = example->priv;
+  GError               *error = NULL;
+
+  g_message ("Cursor example locale changed to: %s",
+	     e_book_client_get_locale (client));
+
+  if (!e_book_backend_sqlitedb_set_locale (priv->ebsdb,
+					   SQLITEDB_FOLDER_ID,
+					   e_book_client_get_locale (client),
+					   &error))
+    {
+      g_warning ("Failed to set local EBookBackendSqliteDB into new locale: %s", error->message);
+      g_error_free (error);
+      return;
+    }
+
+  if (!e_book_backend_sqlitedb_cursor_move_by (priv->ebsdb, priv->cursor,
+					       EBSDB_CURSOR_ORIGIN_RESET,
+					       0,
+					       NULL,
+					       &error))
+    {
+      g_warning ("Failed to reset cursor position in new locale: %s", error->message);
+      g_error_free (error);
+      return;
+    }
+
+  cursor_example_load_alphabet (example);
+
   cursor_example_load_page (example);
   cursor_example_update_sensitivity (example);
   cursor_example_update_status (example);
@@ -521,13 +573,21 @@ cursor_example_new (const gchar *vcard_path)
   example = g_object_new (CURSOR_TYPE_EXAMPLE, NULL);
   priv    = example->priv;
 
-  priv->ebsdb = cursor_load_data (vcard_path, &priv->cursor);
+  priv->client = cursor_load_data (vcard_path,
+				   &priv->ebsdb,
+				   &priv->cursor);
 
   cursor_example_load_alphabet (example);
 
   cursor_example_load_page (example);
   cursor_example_update_sensitivity (example);
   cursor_example_update_status (example);
+
+  g_signal_connect (priv->client, "notify::locale",
+		    G_CALLBACK (cursor_example_locale_changed), example);
+
+  g_message ("Cursor example started in locale: %s",
+	     e_book_client_get_locale (priv->client));
 
   return example;
 }

@@ -22,6 +22,7 @@
 #define __CURSOR_DATA_H__
 
 #include <libedata-book/libedata-book.h>
+#include <libebook/libebook.h>
 
 #define CURSOR_DATA_SOURCE_ID "cursor-example-book"
 
@@ -29,7 +30,8 @@
 #define SQLITEDB_FOLDER_ID   "folder_id"
 #define SQLITEDB_FOLDER_NAME "folder"
 
-EBookBackendSqliteDB *cursor_load_data (const gchar  *vcard_path,
-					EbSdbCursor **ret_cursor);
+EBookClient *cursor_load_data (const gchar  *vcard_path,
+			       EBookBackendSqliteDB **ret_ebsdb,
+			       EbSdbCursor **ret_cursor);
 
 #endif /* __CURSOR_DATA_H__ */

@@ -76,8 +76,9 @@ cursor_data_source_timeout (gpointer user_data)
  * The cursor has no filter on the results and is
  * ordered by family name (ascending) and then given name (ascending).
  */
-EBookBackendSqliteDB *
+EBookClient *
 cursor_load_data (const gchar  *vcard_path,
+		  EBookBackendSqliteDB **ret_ebsdb,
 		  EbSdbCursor **ret_cursor)
 {
   EBookBackendSqliteDB *ebsdb;
@@ -87,6 +88,7 @@ cursor_load_data (const gchar  *vcard_path,
   GMainLoop *loop;
   GError  *error = NULL;
   GSList *contacts = NULL;
+  EBookClient *ret_book;
 
   g_return_val_if_fail (vcard_path != NULL, NULL);
   g_return_val_if_fail (ret_cursor != NULL, NULL);
@@ -168,18 +170,21 @@ cursor_load_data (const gchar  *vcard_path,
    **********************************************************/
   ebsdb = open_sqlitedb (registry, address_book_source);
   *ret_cursor = get_cursor (ebsdb);
+  *ret_ebsdb = ebsdb;
 
   /* Cleanup some resources we used to populate the addressbook */
   g_main_loop_unref (loop);
   g_object_unref (address_book_source);
-  g_object_unref (address_book);
   g_object_unref (registry);
+
+  /* Give the ref through the return value*/
+  ret_book = address_book;
 
   address_book_source = NULL;
   address_book = NULL;
 
   /* Return the EBookBackendSqliteDB now */
-  return ebsdb;
+  return ret_book;
 }
 
 static EContact *
